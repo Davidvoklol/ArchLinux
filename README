@@ -1,6 +1,7 @@
-Visual Setup:
+Setup:
+    - Hyprlan                   Compositor
     - kitty                     Terminal
     - Rofi (Wayland fork)       Window switcher / Application launcher / 
                                 dmenu / custom program...
-    - eww:                      Standalone widget system
+    - eww                       Standalone widget system
     - swww                      Background manager ( + waypaper   GUI )
