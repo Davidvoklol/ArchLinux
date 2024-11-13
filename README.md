@@ -1,7 +1,7 @@
 INSTALL APPS
 
 frontend:
-sudo pacman -S --needed hyprland kitty rofi eww swww neofetch
+sudo pacman -S --needed hyprland kitty rofi eww swww neofetch lightDM Swaylock
 
 backend:
 sudo pacman -S --needed git vim tree playerctl brightnessctl
