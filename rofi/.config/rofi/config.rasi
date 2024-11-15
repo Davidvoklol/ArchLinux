@@ -128,6 +128,7 @@ configuration {
     unfocused: #273341;
     alert: #FBDF15;
     error: #F72630;
+    ph: #273341;
 
     font: @regular-text;
     background-color: @unfocused;
@@ -136,7 +137,7 @@ configuration {
 }
 
 window {
-    background-color: @dark-blue;
+    background-color: @unfocused;
     padding: 1em;
 }
 
@@ -147,7 +148,7 @@ mainbox {
 
 /* Header */
 inputbar {
-    background-color: @green;
+    background-color: @selected;
     padding: 10px;
     spacing: 20px;
 }
@@ -158,14 +159,14 @@ case-indicator {
 
 prompt {
     font: @bold-title;
-    text-color: @dark-blue;
+    text-color: @unfocused;
     background-color: inherit;
 }
 
 entry {
     font: @regular-title;
     placeholder: "Filter";
-    text-color: @dark-blue;
+    text-color: @ph;
     background-color: inherit;
 }
 /* Header */
