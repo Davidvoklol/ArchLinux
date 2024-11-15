@@ -121,19 +121,17 @@ configuration {
     bold-text: "Cascadia Code Bold 20";
     bold-title: "Cascadia Code Bold 25";
 
-    white: #E0E5C5;
-    dark: #0F161F;
-    red: #F72630;
-    green: #05FC9B;
-    yellow: #FBDF15;
-    blue: #30568f;
-    dark-blue: #273341;
-    magenta: #cb1fc9;
-    cyan: #52e0ad;
+    fg: #E0E5C5;
+    bg: #0F161F;
+    selected: #05FC9B;
+    focused: #cb1fc9;
+    unfocused: #273341;
+    alert: #FBDF15;
+    error: #F72630;
 
     font: @regular-text;
-    background-color: @dark-blue;
-    text-color: @white;
+    background-color: @unfocused;
+    text-color: @fg;
     border-radius: 5px;
 }
 
