@@ -1,9 +1,9 @@
-INSTALL APPS
+##### Installing Apps #####
 
-#### Frontend ####
-sudo pacman -S --needed hyprland kitty rofi swww neofetch lightDM Swaylock
+##### frontend
+sudo pacman -S --needed hyprland kitty rofi swww neofetch lightdm swaylock thunar firefox code
 
-# Installing eww
+# eww
 sudo pacman -S --needed gtk3 gtk-layer-shell pango gdk-pixbuf2 libdbusmenu-gtk3 cairo glib2 gcc-libs glibc cargo
 git clone https://github.com/elkowar/eww
 cd eww
@@ -12,16 +12,18 @@ cd target/release
 chmod +x ./eww
 ./eww daemon
 
-#### Frontend ####
+##### backend
+sudo pacman -S --needed git github-cli stow vim tree playerctl brightnessctl pipewire
 
-#### Backend ####
-sudo pacman -S --needed git github-cli vim tree playerctl brightnessctl pipewire
-
+# yay
 sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-#### Backend ####
 
-#### Other #####
-sudo pacman -S --needed firefox code
+
+##### Stow files #####
+- cd into the Wayland-dotfiles repo and run these commands:
+stow -S eww hypr kitty rofi --override=hypr --verbose=1
+mkdir -p ~/.local/share/
+stow -t ~/ -S fonts --verbose=1
