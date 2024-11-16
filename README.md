@@ -1,7 +1,5 @@
 ## Arch Hyprland config
 
-## Aesthetics
-
 # Aesthetics
 - Compositor: [Hyprland](https://hyprland.org/)
 - Background manager: [Mppvpaper](https://github.com/GhostNaN/mpvpaper)
