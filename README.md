@@ -1,6 +1,9 @@
 # Hyprland config
 
 # Programms
+- Compositor: `hyprland`
+
+
 `git github-cli stow vim tree playerctl brightnessctl pipewire`
 
 <!-- # backend
