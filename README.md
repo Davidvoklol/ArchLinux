@@ -4,7 +4,7 @@
 
 #### Aesthetics
 - Compositor: [Hyprland](https://hyprland.org/)
-- Background manager: [Mppvpaper](https://github.com/GhostNaN/mpvpaper)
+- Background manager: [Mpvpaper](https://github.com/GhostNaN/mpvpaper)
 - Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
 - Window switcher, Application launcher and dmenu replacement: [Rofi](https://github.com/davatorium/rofi)
 - File manager: [Thunar](https://github.com/xfce-mirror/thunar)
