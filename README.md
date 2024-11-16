@@ -70,6 +70,7 @@ sudo systemctl --user start --now pipewire
 ```bash
 mkdir -p ~/.config
 mkdir -p ~/.fonts
-stow -t ~/ -S */ --verbose=1
+stow -t ~/ -S */ --ignore fonts --verbose=1
+cp fonts/* ~/.fonts
 fc-cache -fv
 ```
