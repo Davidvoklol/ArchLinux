@@ -18,7 +18,7 @@
 
 Install programms from arch packages
 ```bash
-sudo pacman -S hyprland swww kitty rofi thunar sddm firefox neovim hyprlock
+sudo pacman -S --needed hyprland swww kitty rofi thunar sddm firefox neovim neofetch hyprlock
 ```
 
 Enable sddm
@@ -26,10 +26,10 @@ Enable sddm
 sudo systemctl enable sddm
 ```
 
-Install programms from arch AUR(first get [Yay](https://wiki.archlinux.org/title/Arch_User_Repository))
+<!-- Install programms from arch AUR(first get [Yay](https://wiki.archlinux.org/title/Arch_User_Repository))
 ```bash
 yay -S
-```
+``` -->
 
 Building eww
 ```bash
@@ -69,10 +69,10 @@ makepkg -si
 
 Install programms from arch packages
 ```bash
-sudo pacman -S openssh git github-cli stow pipewire playerctl brightnessctl hyprpicker wl-clipboard
+sudo pacman -S --needed openssh git github-cli stow pipewire playerctl brightnessctl hyprpicker wl-clipboard
 
 #additional packages for pipewire
-sudo pacman -S pipewire-pulse pipewire-jack wireplumber
+sudo pacman -S --needed pipewire-pulse pipewire-jack wireplumber
 ```
 
 Don't forget to start and enable pipewire
