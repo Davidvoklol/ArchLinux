@@ -13,7 +13,7 @@
 - Widgets: [Eww](https://elkowar.github.io/eww/)
 - Code editor: [Neovim](https://github.com/neovim/neovim)
 - Browser: [Firefox](https://wiki.archlinux.org/title/Firefox)
-- 
+<br>
 - From arch packages
 ```bash
 sudo pacman -S hyprland kitty rofi thunar lightdm swaylock firefox neovim
