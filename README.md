@@ -2,7 +2,7 @@
 
 # Programms
 
-# backend
+<!-- # backend
 `sudo pacman -S --needed git github-cli stow vim tree playerctl brightnessctl pipewire`
 
 ```bash
@@ -36,4 +36,4 @@ yay -S google-chrome
 - cd into the Wayland-dotfiles repo and run these commands:
 stow -S eww hypr kitty rofi --override=hypr --verbose=1
 mkdir -p ~/.local/share/
-stow -t ~/ -S fonts --verbose=1
+stow -t ~/ -S fonts --verbose=1 -->
