@@ -75,12 +75,6 @@ sudo pacman -S --needed openssh git github-cli stow pipewire playerctl brightnes
 sudo pacman -S --needed pipewire-pulse pipewire-jack wireplumber
 ```
 
-Don't forget to start and enable pipewire
-```bash
-sudo systemctl --user enable pipewire
-sudo systemctl --user start --now pipewire
-```
-
 ## Setting up files
 - Install [stow](https://github.com/aspiers/stow) if you haven't already
 - run these commands from the folder where the README.md is
