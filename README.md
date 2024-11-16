@@ -83,12 +83,11 @@ sudo systemctl --user start --now pipewire
 
 ## Setting up files
 - Install [stow](https://github.com/aspiers/stow) if you haven't already
-- cd into the dotfiles folder and run the following
+- run these commands from the folder where the README.md is
 ```bash
-mkdir -p ~/.config
 mkdir -p ~/.fonts
 mkdir -p ~/.config/backgrounds
-stow -t ~/ -d dotfiles/ -S */ --verbose=1
+stow -t ~/ -d dotfiles/ -S eww hypr kitty rofi --verbose=1
 cp fonts/* ~/.fonts/
 cp backgrounds/* ~/.config/backgrounds/
 fc-cache -fv
