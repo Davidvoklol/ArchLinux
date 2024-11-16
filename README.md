@@ -42,8 +42,6 @@ chmod +x ./eww
 ./eww daemon
 ```
 
-
-
 #### Functionality
 - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository): [Yay](https://github.com/Jguer/yay)
 - Secure Shell: [SSH](https://wiki.archlinux.org/title/OpenSSH)
