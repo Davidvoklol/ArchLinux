@@ -118,8 +118,15 @@ configuration {
 * {
     regular-title: "Cascadia Code 25";
     regular-text: "Cascadia Code 20";
+    
     bold-text: "Cascadia Code Bold 20";
     bold-title: "Cascadia Code Bold 25";
+
+    italic-text: "Cascadia Code italic 20";
+    italic-title: "Cascadia Code italic 25";
+
+    bold-italic-text: "Cascadia Code Bold italic 20";
+    bold-italic-title: "Cascadia Code Bold italic 25";
 
     fg: #E0E5C5;
     bg: #0F161F;
@@ -138,11 +145,11 @@ configuration {
 
 window {
     background-color: @unfocused;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 mainbox {
-    spacing: 0.5em;
+    spacing: 0.25em;
 }
 
 
@@ -172,8 +179,11 @@ entry {
 /* Header */
 
 /*Body*/
+listview {
+    padding: 0em 1em;
+}
+
 element {
-    spacing: 0.1em;
 }
 
 element-icon {
