@@ -3,6 +3,12 @@
 # backend
 `sudo pacman -S --needed git github-cli stow vim tree playerctl brightnessctl pipewire`
 
+```markdown
+```bash
+git clone https://github.com/your-repo.git
+cd your-repo
+npm install
+
 # yay
 sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/yay.git
