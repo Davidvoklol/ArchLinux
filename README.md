@@ -63,7 +63,7 @@ sudo systemctl --user start --now pipewire
 ```
 
 ## Stowing files
-- Install [stow](https://github.com/aspiers/stow)
+- Install [stow](https://github.com/aspiers/stow) if you haven't already
 - cd into the dotfiles folder and run the following
 ```bash
 mkdir -p ~/.config
