@@ -16,14 +16,14 @@
 
 <br>
 
-- From arch packages
+Install programms from arch packages
 ```bash
 sudo pacman -S hyprland kitty rofi thunar lightdm swaylock firefox neovim
 ```
 
-- From arch AUR(first get [Yay](https://wiki.archlinux.org/title/Arch_User_Repository))
+Install programms from arch AUR(first get [Yay](https://wiki.archlinux.org/title/Arch_User_Repository))
 ```bash
-
+yay -S mpvpaper eww
 ```
 
 
