@@ -1,7 +1,7 @@
-##### Installing Apps #####
+# Installing Apps
 
-##### backend
-sudo pacman -S --needed git github-cli stow vim tree playerctl brightnessctl pipewire
+# backend
+- sudo pacman -S --needed git github-cli stow vim tree playerctl brightnessctl pipewire
 
 # yay
 sudo pacman -S --needed base-devel
