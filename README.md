@@ -1,4 +1,4 @@
-## Arch Hyprland config
+# Arch Hyprland config
 
 # Aesthetics
 - Compositor: [Hyprland](https://hyprland.org/)
