@@ -9,7 +9,7 @@
 - Window switcher, Application launcher and dmenu replacement: [Rofi](https://github.com/davatorium/rofi)
 - File manager: [Thunar](https://github.com/xfce-mirror/thunar)
 - Login manager: [SDDM](https://github.com/sddm/sddm)
-- Screen locker: [Swaylock-effects](https://github.com/mortie/swaylock-effects)
+- Screen locker: [Hyprlock](https://github.com/hyprwm/hyprlock)
 - Widgets: [Eww](https://elkowar.github.io/eww/)
 - Code editor: [Neovim](https://github.com/neovim/neovim)
 - Browser: [Firefox](https://wiki.archlinux.org/title/Firefox)
@@ -18,7 +18,7 @@
 
 Install programms from arch packages
 ```bash
-sudo pacman -S hyprland swww kitty rofi thunar sddm firefox neovim
+sudo pacman -S hyprland swww kitty rofi thunar sddm firefox neovim hyprlock
 ```
 
 Enable sddm
@@ -28,7 +28,7 @@ sudo systemctl enable sddm
 
 Install programms from arch AUR(first get [Yay](https://wiki.archlinux.org/title/Arch_User_Repository))
 ```bash
-yay -S eww swaylock-effects-git
+yay -S eww
 ```
 
 
