@@ -44,6 +44,7 @@ yay -S eww
 - Device brightness controll: [Brightnessctl](https://github.com/Hummer12007/brightnessctl)
 - Color picker: [Hyprpicker](https://github.com/hyprwm/hyprpicker)
 - Clipboard manager: [Wl-clipboard](https://github.com/bugaevc/wl-clipboard)
+- **Costumizing Tool:** [Archlinux-tweak-tool](https://github.com/arcolinux/archlinux-tweak-tool)
 
 <br>
 
