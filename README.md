@@ -2,7 +2,7 @@
 
 ## Programms
 
-### Aesthetics
+#### Aesthetics
 - Compositor: [Hyprland](https://hyprland.org/)
 - Background manager: [Mppvpaper](https://github.com/GhostNaN/mpvpaper)
 - Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
@@ -14,7 +14,7 @@
 - Code editor: [Neovim](https://github.com/neovim/neovim)
 - Browser: [Firefox](https://wiki.archlinux.org/title/Firefox)
 
-### Functionality
+#### Functionality
 - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository): [Yay](https://github.com/Jguer/yay)
 - Code version control system: [Git](https://wiki.archlinux.org/title/Git)
 - GitHub Terminal Interface: [Github-CLI](https://github.com/cli/cli#installation)
@@ -22,7 +22,7 @@
 
 
 <!-- # backend
-`sudo pacman -S --needed git github-cli stow vim tree playerctl brightnessctl pipewire`
+`sudo pacman -S --needed git github-cli stow tree playerctl brightnessctl pipewire`
 
 ```bash
 git clone https://github.com/your-repo.git
