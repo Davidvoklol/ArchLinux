@@ -4,12 +4,11 @@
 
 #### Aesthetics
 - Compositor: [Hyprland](https://hyprland.org/)
-- Background manager: [Mpvpaper](https://github.com/GhostNaN/mpvpaper)
+- Background manager: [Swww](https://github.com/GhostNaN/mpvpaper)
 - Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
 - Window switcher, Application launcher and dmenu replacement: [Rofi](https://github.com/davatorium/rofi)
 - File manager: [Thunar](https://github.com/xfce-mirror/thunar)
 - Login manager: [SDDM](https://github.com/sddm/sddm)
-- Greeter: []()
 - Screen locker: [Swaylock](https://github.com/swaywm/swaylock)
 - Widgets: [Eww](https://elkowar.github.io/eww/)
 - Code editor: [Neovim](https://github.com/neovim/neovim)
@@ -19,7 +18,12 @@
 
 Install programms from arch packages
 ```bash
-sudo pacman -S hyprland kitty rofi thunar lightdm swaylock firefox neovim
+sudo pacman -S hyprland kitty rofi thunar sddm swaylock firefox neovim
+```
+
+Enable sddm
+```bash
+sudo systemctl enable sddm
 ```
 
 Install programms from arch AUR(first get [Yay](https://wiki.archlinux.org/title/Arch_User_Repository))
