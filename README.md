@@ -1,4 +1,4 @@
-# Arch Hyprland config
+## Arch Hyprland config
 
 # Aesthetics
 - Compositor: [Hyprland](https://hyprland.org/)
@@ -13,7 +13,7 @@
 - Browser: [Firefox](https://wiki.archlinux.org/title/Firefox)
 
 
-`git github-cli stow vim tree playerctl brightnessctl pipewire`
+
 
 <!-- # backend
 `sudo pacman -S --needed git github-cli stow vim tree playerctl brightnessctl pipewire`
