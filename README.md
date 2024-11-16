@@ -64,13 +64,13 @@ sudo systemctl --user enable pipewire
 sudo systemctl --user start --now pipewire
 ```
 
-## Stowing files
+## Setting up files
 - Install [stow](https://github.com/aspiers/stow) if you haven't already
 - cd into the dotfiles folder and run the following
 ```bash
 mkdir -p ~/.config
 mkdir -p ~/.fonts
-stow -t ~/ -S */ --ignore fonts --verbose=1
+stow -t ~/ -S */ --ignore fonts --ignore backgrounds --verbose=1
 cp fonts/* ~/.fonts
 fc-cache -fv
 ```
