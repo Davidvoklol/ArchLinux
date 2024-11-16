@@ -1,6 +1,8 @@
 # Arch Hyprland config
 
-## Aesthetics
+## Programms
+
+### Aesthetics
 - Compositor: [Hyprland](https://hyprland.org/)
 - Background manager: [Mppvpaper](https://github.com/GhostNaN/mpvpaper)
 - Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
@@ -12,6 +14,9 @@
 - Code editor: [Neovim](https://github.com/neovim/neovim)
 - Browser: [Firefox](https://wiki.archlinux.org/title/Firefox)
 
+### Functionality
+- *Code version control system*: [Git](https://wiki.archlinux.org/title/Git)
+- [Github-CLI](https://github.com/cli/cli#installation)
 
 
 
