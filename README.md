@@ -1,7 +1,9 @@
 # Hyprland config
 
 # Programms
-- Compositor: `hyprland`
+- Compositor: [Hyprland](https://hyprland.org/)
+- Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
+- 
 
 
 `git github-cli stow vim tree playerctl brightnessctl pipewire`
