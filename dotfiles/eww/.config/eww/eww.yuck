@@ -1,5 +1,5 @@
 (defwindow bar
-    :monitor: "wayland-1"
+    :monitor: 0
     :geometry (geometry :x "20px"
                         :y "20px"
                         :anchor "top right")
