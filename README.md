@@ -51,6 +51,15 @@ makepkg -si
 Install programms from arch packages
 ```bash
 sudo pacman -S openssh git github-cli stow pipewire playerctl brightnessctl
+
+#additional packages for pipewire
+sudo pacman -S pipewire-pulse pipewire-jack wireplumber
+```
+
+Don't forget to start and enable pipewire
+```bash
+sudo systemctl --user enable pipewire
+sudo systemctl --user start --now pipewire
 ```
 
 ## Stowing files
