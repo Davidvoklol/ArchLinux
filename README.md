@@ -1,4 +1,6 @@
-# Installing Apps
+# Hyprland config
+
+# Programms
 
 # backend
 `sudo pacman -S --needed git github-cli stow vim tree playerctl brightnessctl pipewire`
