@@ -15,9 +15,10 @@
 - Browser: [Firefox](https://wiki.archlinux.org/title/Firefox)
 
 ### Functionality
+- Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository): [Yay](https://github.com/Jguer/yay)
 - Code version control system: [Git](https://wiki.archlinux.org/title/Git)
-- [Github-CLI](https://github.com/cli/cli#installation)
-
+- GitHub Terminal Interface: [Github-CLI](https://github.com/cli/cli#installation)
+- Symlink farm manager: [Stow](https://github.com/aspiers/stow)
 
 
 <!-- # backend
