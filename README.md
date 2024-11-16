@@ -18,7 +18,7 @@
 
 Install programms from arch packages
 ```bash
-sudo pacman -S hyprland kitty rofi thunar sddm swaylock firefox neovim
+sudo pacman -S hyprland swww kitty rofi thunar sddm swaylock firefox neovim
 ```
 
 Enable sddm
@@ -28,7 +28,7 @@ sudo systemctl enable sddm
 
 Install programms from arch AUR(first get [Yay](https://wiki.archlinux.org/title/Arch_User_Repository))
 ```bash
-yay -S mpvpaper eww
+yay -S eww
 ```
 
 
