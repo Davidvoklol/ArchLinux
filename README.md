@@ -10,10 +10,13 @@
 - File manager: [Thunar](https://github.com/xfce-mirror/thunar)
 - Login manager: [SDDM](https://github.com/sddm/sddm)
 - Screen locker: [Hyprlock](https://github.com/hyprwm/hyprlock)
-- Widgets: [Eww](https://elkowar.github.io/eww/)
+- Widgets: [Eww](https://github.com/elkowar/eww?tab=readme-ov-file)
 - Code editor: [Neovim](https://github.com/neovim/neovim)
 - Browser: [Firefox](https://wiki.archlinux.org/title/Firefox)
-
+*Set the background once and it will load the last one automaticly:*
+```bash
+swww img <img path>
+```
 <br>
 
 Install programms from arch packages
@@ -33,7 +36,7 @@ yay -S
 
 Building eww
 ```bash
-sudo pacman -S --needed rustrc cargo gtk3 gtk-layer-shell pango gdk-pixbuf2 libdbusmenu-gtk3 cairo glib2 gcc-libs glibc
+sudo pacman -S --needed cargo gtk3 gtk-layer-shell pango gdk-pixbuf2 libdbusmenu-gtk3 cairo glib2 gcc-libs glibc
 git clone https://github.com/elkowar/eww
 cd eww
 cargo build --release --no-default-features --features=wayland
@@ -75,7 +78,7 @@ sudo pacman -S --needed pipewire-pulse pipewire-jack wireplumber
 
 ## Setting up files
 - Install [stow](https://github.com/aspiers/stow) if you haven't already
-- run these commands from the folder where the README.md is
+- Run these commands from the folder where the README.md is
 ```bash
 mkdir -p ~/.fonts
 mkdir -p ~/.config/backgrounds
