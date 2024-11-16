@@ -1,11 +1,13 @@
-# Hyprland config
+# Arch Hyprland config
 
 # Programms
 - Compositor: [Hyprland](https://hyprland.org/)
 - Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
 - Window switcher, Application launcher and dmenu replacement: [Rofi](https://github.com/davatorium/rofi)
 - File manager: [Thunar](https://github.com/xfce-mirror/thunar)
-- Login manager: [lightDM](https://github.com/canonical/lightdm)
+- Login manager: [LightDM](https://github.com/canonical/lightdm)
+- Screen locker: [Swaylock](https://github.com/swaywm/swaylock)
+- Graphical code editor: [VS Code]()
 
 
 `git github-cli stow vim tree playerctl brightnessctl pipewire`
