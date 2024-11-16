@@ -19,15 +19,23 @@
 - Code version control system: [Git](https://wiki.archlinux.org/title/Git)
 - GitHub Terminal Interface: [Github-CLI](https://github.com/cli/cli#installation)
 - Symlink farm manager: [Stow](https://github.com/aspiers/stow)
+- Audio and video handler: [Pipewire](https://github.com/PipeWire/pipewire)
+- Media players controll: [Playerctl](https://github.com/altdesktop/playerctl)
+- Device brightness controll: [Brightnessctl](https://github.com/Hummer12007/brightnessctl)
+
+## Stowing files
+- Install [stow](https://github.com/aspiers/stow)
+- cd into the dotfiles folder and run the following
+```bash
+stow -S hypr backgrounds kitty rofi
+mkdir -p ~/.local/share/
+stow -t ~/ fonts
+```
+
 
 
 <!-- # backend
 `sudo pacman -S --needed git github-cli stow tree playerctl brightnessctl pipewire`
-
-```bash
-git clone https://github.com/your-repo.git
-cd your-repo
-npm install
 
 # yay
 sudo pacman -S --needed base-devel
