@@ -30,6 +30,7 @@ yay -S mpvpaper eww
 
 #### Functionality
 - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository): [Yay](https://github.com/Jguer/yay)
+- Secure Shell: [SSH](https://wiki.archlinux.org/title/OpenSSH)
 - Code version control system: [Git](https://wiki.archlinux.org/title/Git)
 - GitHub Terminal Interface: [Github-CLI](https://github.com/cli/cli#installation)
 - Symlink farm manager: [Stow](https://github.com/aspiers/stow)
@@ -37,11 +38,27 @@ yay -S mpvpaper eww
 - Media players controll: [Playerctl](https://github.com/altdesktop/playerctl)
 - Device brightness controll: [Brightnessctl](https://github.com/Hummer12007/brightnessctl)
 
+<br>
+
+Build yay
+```bash
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+
+Install programms from arch packages
+```bash
+sudo pacman -S openssh git github-cli stow pipewire playerctl brightnessctl
+```
+
 ## Stowing files
 - Install [stow](https://github.com/aspiers/stow)
 - cd into the dotfiles folder and run the following
 ```bash
-stow -S hypr backgrounds kitty rofi --verbose=1
+mkdir -p ~/.config
 mkdir -p ~/.local/share/
-stow -t ~/ -S fonts --verbose=1
+stow -t ~/ -S */ --ignore fonts --verbose=1
+stow -t ~/.local/share/ -S fonts --verbose=1
 ```
