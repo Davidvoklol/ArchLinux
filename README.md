@@ -2,6 +2,7 @@
 
 # Aesthetics
 - Compositor: [Hyprland](https://hyprland.org/)
+- Background manager: [Mppvpaper](https://github.com/GhostNaN/mpvpaper)
 - Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
 - Window switcher, Application launcher and dmenu replacement: [Rofi](https://github.com/davatorium/rofi)
 - File manager: [Thunar](https://github.com/xfce-mirror/thunar)
@@ -9,7 +10,7 @@
 - Screen locker: [Swaylock](https://github.com/swaywm/swaylock)
 - Widgets: [Eww](https://elkowar.github.io/eww/)
 - Code editor: [Neovim](https://github.com/neovim/neovim)
-- Browser: Firefox
+- Browser: [Firefox](https://wiki.archlinux.org/title/Firefox)
 
 
 `git github-cli stow vim tree playerctl brightnessctl pipewire`
