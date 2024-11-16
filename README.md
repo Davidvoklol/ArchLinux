@@ -14,6 +14,18 @@
 - Code editor: [Neovim](https://github.com/neovim/neovim)
 - Browser: [Firefox](https://wiki.archlinux.org/title/Firefox)
 
+- From arch packages
+```bash
+sudo pacman -S hyprland kitty rofi thunar lightdm swaylock firefox neovim
+```
+
+- From arch AUR(first get [Yay](https://wiki.archlinux.org/title/Arch_User_Repository))
+```bash
+
+```
+
+
+
 #### Functionality
 - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository): [Yay](https://github.com/Jguer/yay)
 - Code version control system: [Git](https://wiki.archlinux.org/title/Git)
