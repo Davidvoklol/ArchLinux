@@ -14,7 +14,7 @@
 - Code editor: [Neovim](https://github.com/neovim/neovim)
 - Browser: [Firefox](https://wiki.archlinux.org/title/Firefox)
 
-***Set the background once and it will load the last one automaticly:***
+*Set the background once and it will load the last one automaticly:*
 ```bash
 swww img <img path>
 ```
