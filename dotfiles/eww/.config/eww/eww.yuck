@@ -1,0 +1,7 @@
+(defwindow bar
+    :monitor: "wayland-1"
+    :geometry (geometry :x "20px"
+                        :y "20px"
+                        :anchor "top right")
+    :stacking "overlay"
+    (label :text "Text bar"))

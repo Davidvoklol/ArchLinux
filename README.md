@@ -28,7 +28,18 @@ sudo systemctl enable sddm
 
 Install programms from arch AUR(first get [Yay](https://wiki.archlinux.org/title/Arch_User_Repository))
 ```bash
-yay -S eww
+yay -S
+```
+
+Building eww
+```bash
+sudo pacman -S --needed rustrc cargo gtk3 gtk-layer-shell pango gdk-pixbuf2 libdbusmenu-gtk3 cairo glib2 gcc-libs glibc
+git clone https://github.com/elkowar/eww
+cd eww
+cargo build --release --no-default-features --features=wayland
+cd target/release
+chmod +x ./eww
+./eww daemon
 ```
 
 
