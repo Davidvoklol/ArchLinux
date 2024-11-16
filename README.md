@@ -15,7 +15,7 @@
 - Browser: [Firefox](https://wiki.archlinux.org/title/Firefox)
 
 ### Functionality
-- *Code version control system*: [Git](https://wiki.archlinux.org/title/Git)
+- **Code version control system**: [Git](https://wiki.archlinux.org/title/Git)
 - [Github-CLI](https://github.com/cli/cli#installation)
 
 
