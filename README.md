@@ -67,7 +67,7 @@ sudo systemctl --user start --now pipewire
 - cd into the dotfiles folder and run the following
 ```bash
 mkdir -p ~/.config
-mkdir -p ~/.local/share/
-stow -t ~/ -S */ --ignore fonts --verbose=1
-stow -t ~/.local/share/ -S fonts --verbose=1
+mkdir -p ~/.fonts
+stow -t ~/ -S */ --verbose=1
+fc-cache -fv
 ```
