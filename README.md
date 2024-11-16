@@ -1,6 +1,7 @@
 # Hyprland config
 
 # Programms
+`git github-cli stow vim tree playerctl brightnessctl pipewire`
 
 <!-- # backend
 `sudo pacman -S --needed git github-cli stow vim tree playerctl brightnessctl pipewire`
