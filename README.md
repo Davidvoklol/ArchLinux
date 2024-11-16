@@ -37,6 +37,8 @@ yay -S mpvpaper eww
 - Audio and video handler: [Pipewire](https://github.com/PipeWire/pipewire)
 - Media players controll: [Playerctl](https://github.com/altdesktop/playerctl)
 - Device brightness controll: [Brightnessctl](https://github.com/Hummer12007/brightnessctl)
+- Color picker: [Hyprpicker](https://github.com/hyprwm/hyprpicker)
+- Clipboard manager: [Wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 
 <br>
 
@@ -50,7 +52,7 @@ makepkg -si
 
 Install programms from arch packages
 ```bash
-sudo pacman -S openssh git github-cli stow pipewire playerctl brightnessctl
+sudo pacman -S openssh git github-cli stow pipewire playerctl brightnessctl hyprpicker wl-clipboard
 
 #additional packages for pipewire
 sudo pacman -S pipewire-pulse pipewire-jack wireplumber
