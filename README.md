@@ -1,13 +1,15 @@
 # Arch Hyprland config
 
-# Programms
+# Aesthetics
 - Compositor: [Hyprland](https://hyprland.org/)
 - Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
 - Window switcher, Application launcher and dmenu replacement: [Rofi](https://github.com/davatorium/rofi)
 - File manager: [Thunar](https://github.com/xfce-mirror/thunar)
 - Login manager: [LightDM](https://github.com/canonical/lightdm)
 - Screen locker: [Swaylock](https://github.com/swaywm/swaylock)
-- Graphical code editor: [VS Code]()
+- Widgets: [Eww](https://elkowar.github.io/eww/)
+- Code editor: [Neovim](https://github.com/neovim/neovim)
+- Browser: Firefox
 
 
 `git github-cli stow vim tree playerctl brightnessctl pipewire`
