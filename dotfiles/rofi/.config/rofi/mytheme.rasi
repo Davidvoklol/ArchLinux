@@ -124,90 +124,87 @@ States
 */ 
 
 * {
-    regular-title: "Cascadia Code 30";
-    regular-text: "Cascadia Code 25";
-    
-    bold-title: "Cascadia Code Bold 30";
-    bold-text: "Cascadia Code Bold 25";
-
-    italic-title: "Cascadia Code italic 30";
-    italic-text: "Cascadia Code italic 25";
-
-    bold-italic-title: "Cascadia Code Bold italic 30";
-    bold-italic-text: "Cascadia Code Bold italic 25";
-
     fg: #0F171D;
     bg: #273340;
+    selected: #0BEF75;
+    active: #1a63bd;
 
-
-
-    font: @regular-text;
+    font: "Cascadia Code 25";
     text-color: @fg;
     background-color: @bg;
 }
 
 window {
+    width: 60%;
+    height: 60%;
     padding: 3px;
-    border-radius: 5px;
-    background-color: @bg;
-    spacing: 0.5em;
-    children: [sidebar, inputbar, listview];
+    spacing: 0;
+    children: [inputbar, listview];
 }
 
 
 inputbar {
-    spacing: 0.5em;
-    padding: 0.5em 1em;
-    border-radius: 5px;
-    background-color: @fg;
-    children: [icon-search, entry];
+    background-color: inherit;
+    spacing: 1em;
+    children: [input, sidebar];
 }
 
-icon-search {
-    expand: false;
-    filename: "./Icons/search.png";
+input {
+    expand: true;
+    orientation: horizontal;
+    spacing: 3px;
+    padding: 0px 0px 3px;
+    children: [entry, textbox-icon];
+}
+textbox-icon, entry {
     color: @bg;
-    background-color: inherit;
-    size: 1em;
+    background-color: @fg;
+    vertical-align: 0.5;
+    padding: 0.25em 0.5em;
+}
+entry {
+    border-radius: 5px;
+    padding: 0.25em 0.75em;
+    placeholder: "search";
+}
+textbox-icon {
+    expand: false;
+    content: "?";
+    vertical-align: 0.5;
+    border-radius: 5px 100% 100% 5px;
 }
 
-entry {
-    font: @italic-text;
-    placeholder: "Search";
-    text-color: @bg;
-    background-color: inherit;
-    vertical-align: 0.5;
+
+sidebar {
+    expand: true;
+}
+button {
+    expand: true;
+    padding: 0.25em;
+    border-radius: 10px 10px 0px 0px;
+    background-color: @bg;
+    color: @fg;
+}
+button selected {
+    color: @bg;
+    background-color: @fg;
 }
 
 
 listview {
-    margin: 0em 1em;
-    scrollbar: false;
-    scrollbar-width: 10px;
-    cycle: true;
-    columns: 5;
-    lines: 10;
-    spacing: 0.5em;
+    padding: 1em;
+    color: @bg;
+    background-color: @fg;
     flow: horizontal;
+    columns: 5;
+    spacing: 0.5em;
+    border-radius: 5px;
 }
-
-scrollbar {
-    background-color: inherit;
-    handle-width: 15px;
-    handle-color: @fg;
-}
-
 element {
     orientation: vertical;
     children: [element-icon, element-text];
 }
-
-element-icon {
-    enabled: true;
-}
-
-element-text {
-}
-
-sidebar {
+element, element-text, element-icon {
+    color: inherit;
+    background-color: inherit;
 }

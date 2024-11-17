@@ -154,8 +154,11 @@ configuration {
     
 
 configuration {
-    combi: "window, drun";
-    display-drun: "Applications:";
+    combi-modes: [ drun, run, ssh ];
+    display-drun: "apps";
+    display-window: "windows";
+    display-run: "< / >";
+    display-ssh: "ssh";
 }
 
 @theme "mytheme.rasi"
