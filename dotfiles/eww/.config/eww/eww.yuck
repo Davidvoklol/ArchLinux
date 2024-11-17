@@ -6,4 +6,4 @@
                                 :anchor "top center")
         :stacking "overlay"
         :exclusive true
-        (label :text "Test Bar"))
+        (label :text "12:34"))

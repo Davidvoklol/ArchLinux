@@ -116,20 +116,20 @@ configuration {
 @theme "/dev/null"
 
 * {
-    regular-title: "Cascadia Code 25";
-    regular-text: "Cascadia Code 20";
+    regular-title: "Cascadia Code 30";
+    regular-text: "Cascadia Code 25";
     
-    bold-text: "Cascadia Code Bold 20";
-    bold-title: "Cascadia Code Bold 25";
+    bold-title: "Cascadia Code Bold 30";
+    bold-text: "Cascadia Code Bold 25";
 
-    italic-text: "Cascadia Code italic 20";
-    italic-title: "Cascadia Code italic 25";
+    italic-title: "Cascadia Code italic 30";
+    italic-text: "Cascadia Code italic 25";
 
-    bold-italic-text: "Cascadia Code Bold italic 20";
-    bold-italic-title: "Cascadia Code Bold italic 25";
+    bold-italic-title: "Cascadia Code Bold italic 30";
+    bold-italic-text: "Cascadia Code Bold italic 25";
 
-    fg: #E0E5C5;
-    bg: #0F161F;
+    fg: #0F161E;
+    bg: #273341;
     selected: #05FC9B;
     focused: #cb1fc9;
     unfocused: #273341;
@@ -138,14 +138,14 @@ configuration {
     ph: #273341;
 
     font: @regular-text;
-    background-color: @unfocused;
     text-color: @fg;
-    border-radius: 5px;
+    background-color: @bg;
 }
 
 window {
-    background-color: @unfocused;
-    padding: 0.5em;
+    background-color: @bg;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 mainbox {
@@ -155,9 +155,10 @@ mainbox {
 
 /* Header */
 inputbar {
-    background-color: @selected;
-    padding: 10px;
-    spacing: 20px;
+    background-color: @fg;
+    padding: 0.5em 1em;
+    spacing: 1em;
+    border-radius: 7px;
 }
 
 case-indicator {
@@ -166,21 +167,21 @@ case-indicator {
 
 prompt {
     font: @bold-title;
-    text-color: @unfocused;
+    text-color: @bg;
     background-color: inherit;
 }
 
 entry {
-    font: @regular-title;
+    font: @regular-text;
     placeholder: "Filter";
-    text-color: @ph;
+    text-color: @bg;
     background-color: inherit;
 }
 /* Header */
 
 /*Body*/
 listview {
-    padding: 0em 1em;
+    padding: 0em 2em;
 }
 
 element {
