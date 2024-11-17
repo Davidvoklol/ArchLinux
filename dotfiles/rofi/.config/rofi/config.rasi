@@ -158,4 +158,4 @@ configuration {
     display-drun: "Applications:";
 }
 
-@theme "theme.rasi"
+@theme "mytheme.rasi"

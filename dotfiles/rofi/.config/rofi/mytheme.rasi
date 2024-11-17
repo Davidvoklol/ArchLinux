@@ -139,6 +139,8 @@ States
     fg: #0F171D;
     bg: #273340;
 
+
+
     font: @regular-text;
     text-color: @fg;
     background-color: @bg;
@@ -148,10 +150,8 @@ window {
     padding: 3px;
     border-radius: 5px;
     background-color: @bg;
-}
-
-mainbox {
     spacing: 0.5em;
+    children: [sidebar, inputbar, listview];
 }
 
 
@@ -160,22 +160,20 @@ inputbar {
     padding: 0.5em 1em;
     border-radius: 5px;
     background-color: @fg;
+    children: [icon-search, entry];
 }
 
-case-indicator {
+icon-search {
+    expand: false;
+    filename: "./Icons/search.png";
+    color: @bg;
     background-color: inherit;
-}
-
-prompt {
-    font: @bold-title;
-    text-color: @bg;
-    background-color: inherit;
-    vertical-align: 0.5;
+    size: 1em;
 }
 
 entry {
     font: @italic-text;
-    placeholder: "Filter";
+    placeholder: "Search";
     text-color: @bg;
     background-color: inherit;
     vertical-align: 0.5;
@@ -208,16 +206,8 @@ element-icon {
     enabled: true;
 }
 
-element-index {
-}
-
 element-text {
 }
 
-mode-switcher {
-    background-color: @fg;
-}
-
-button {
-
+sidebar {
 }
