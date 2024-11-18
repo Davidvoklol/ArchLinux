@@ -8,10 +8,20 @@ sudo pacman -Syyu
 ## Programms
 
 #### Aesthetics
-| Porpuse | Name |
-|-|-|
-| Compositor | [Hyprland](https://hyprland.org/) |
-|Background manager| [Swww](https://github.com/GhostNaN/mpvpaper) |
+
+| **Pospuse**                   | **Application**                                                                 |
+|-------------------------------|---------------------------------------------------------------------------------|
+| **Compositor**                | [Hyprland](https://hyprland.org/)                                              |
+| **Background Manager**        | [Swww](https://github.com/GhostNaN/mpvpaper)                                   |
+| **Terminal**                  | [Kitty](https://github.com/kovidgoyal/kitty)                                   |
+| **Window Switcher & Launcher**| [Rofi](https://github.com/davatorium/rofi)                                     |
+| **File Manager**              | [Thunar](https://github.com/xfce-mirror/thunar)                                |
+| **Login Manager**             | [SDDM](https://github.com/sddm/sddm)                                           |
+| **Screen Locker**             | [Hyprlock](https://github.com/hyprwm/hyprlock)                                 |
+| **Widgets**                   | [Eww](https://github.com/elkowar/eww?tab=readme-ov-file)                       |
+| **Code Editor**               | [Neovim](https://github.com/neovim/neovim)                                     |
+| **Browser**                   | [Firefox](https://wiki.archlinux.org/title/Firefox)                            |
+
 
 - Compositor: [Hyprland](https://hyprland.org/)
 - Background manager: [Swww](https://github.com/GhostNaN/mpvpaper)
