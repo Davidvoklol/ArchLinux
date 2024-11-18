@@ -8,29 +8,6 @@ sudo pacman -Syyu
 ## Programms
 
 #### Aesthetics
-
-<table>
-<thead>
-<tr>
-<th>abc</th>
-<th>def</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>bar</td>
-<td></td>
-</tr>
-<tr>
-<td>bar</td>
-<td>baz</td>
-</tr>
-</tbody>
-</table>
-
-
-
-
 - Compositor: [Hyprland](https://hyprland.org/)
 - Background manager: [Swww](https://github.com/GhostNaN/mpvpaper)
 - Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
