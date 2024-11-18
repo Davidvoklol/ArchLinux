@@ -29,6 +29,9 @@
 - [Wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Clipboard manager
 - [acpi](https://pkgs.org/download/acpi) - Battery Status
 
+> [!TIP]
+> First look after programms in your distros packages so you don't have to build them all.
+
 ## Setting up files
 
 #### With GNU Stow
