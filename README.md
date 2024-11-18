@@ -34,6 +34,9 @@
 
 ## Setting up files
 
+> [!TIP]
+> GNU Stow simplifies dotfile management by creating symbolic links from a central repository to their appropriate locations, ensuring a clean, modular, and easily version-controlled setup.
+
 #### With GNU Stow
 - Install [stow](https://github.com/aspiers/stow) if you haven't already
 - Run these commands from the [Wayland-dotfiles](./) folder
@@ -59,4 +62,4 @@ sudo fc-cache -fv
 > From `./dotfiles/hypr/.config/hypr/`, the `hyprland.conf` and `hyprclock.conf` should be copied to `~/.config/hypr`
 
 > [!NOTE]
-> The file structure was built for stow to work correctly.
+> The file structure was built like this so stow can work correctly.
