@@ -36,21 +36,26 @@
 
 #### With GNU Stow
 - Install [stow](https://github.com/aspiers/stow) if you haven't already
-- Run these commands from the Wayland-dotfiles folder
+- Run these commands from the [Wayland-dotfiles](./) folder
 ```bash
 mkdir -p ~/.fonts
 mkdir -p ~/.config/backgrounds
-stow -t ~/ -d dotfiles/ -S eww hypr kitty rofi --verbose=1
+stow -t ~/.config -d dotfiles/ -S eww hypr kitty rofi --verbose=1
 cp fonts/* ~/.fonts/
 cp backgrounds/* ~/.config/backgrounds/
 sudo fc-cache -fv
 ```
 
 #### Manually
-- From the fonts folder copy everything to the `~/.fonts/` folder
+- From the `fonts` folder copy everything to the `~/.fonts/` folder
 > [!NOTE]
 > You have to update the fonts cache to see the fonts in use:
 > ```bash
 > sudo fc-cache -fv
 > ```
-- From the backgrounds folder copy everything to the `~/.config/backgrounds/` folder
+- From the `backgrounds` folder copy everything to the `~/.config/backgrounds/` folder
+- In the `dotfiles` folder look for the config or styling files and copy or link them into the correct folder under `~/.config/`
+> For Example:
+> From `./dotfiles/hypr/.config/hypr/`, the `hyprland.conf` and `hyprclock.conf` should be copied to `~/.config/hypr`
+> [!NOTE]
+> The file structure was built for stow to work correctly.
