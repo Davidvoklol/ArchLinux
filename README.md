@@ -77,6 +77,11 @@ sudo pacman -S --needed openssh git github-cli stow pipewire playerctl brightnes
 sudo pacman -S --needed pipewire-pulse pipewire-jack wireplumber
 ```
 
+Installing programms form the AUR
+```bash
+yay -S archlinux-tweak-tool-git
+```
+
 ## Setting up files
 - Install [stow](https://github.com/aspiers/stow) if you haven't already
 - Run these commands from the folder where the README.md is
