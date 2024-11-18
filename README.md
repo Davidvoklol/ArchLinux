@@ -8,6 +8,8 @@ sudo pacman -Syyu
 ## Programms
 
 #### Aesthetics
+| | |
+|-|-|
 | Compositor | [Hyprland](https://hyprland.org/) |
 |Background manager| [Swww](https://github.com/GhostNaN/mpvpaper) |
 
