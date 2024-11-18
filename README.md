@@ -9,18 +9,53 @@ sudo pacman -Syyu
 
 #### Aesthetics
 
-| **Purpose**                  | **Application**                                                                 |
-|------------------------------|---------------------------------------------------------------------------------|
-| Compositor                   | [Hyprland](https://hyprland.org/)                                              |
-| Background Manager           | [Swww](https://github.com/GhostNaN/mpvpaper)                                   |
-| Terminal                     | [Kitty](https://github.com/kovidgoyal/kitty)                                   |
-| Window Switcher & Launcher   | [Rofi](https://github.com/davatorium/rofi)                                     |
-| File Manager                 | [Thunar](https://github.com/xfce-mirror/thunar)                                |
-| Login Manager                | [SDDM](https://github.com/sddm/sddm)                                           |
-| Screen Locker                | [Hyprlock](https://github.com/hyprwm/hyprlock)                                 |
-| Widgets                      | [Eww](https://github.com/elkowar/eww?tab=readme-ov-file)                       |
-| Code Editor                  | [Neovim](https://github.com/neovim/neovim)                                     |
-| Browser                      | [Firefox](https://wiki.archlinux.org/title/Firefox)                            |
+<table style="width:100%">
+  <tr>
+    <th style="text-align:left">Component</th>
+    <th style="text-align:left">Application</th>
+  </tr>
+  <tr>
+    <td>Compositor</td>
+    <td><a href="https://hyprland.org/">Hyprland</a></td>
+  </tr>
+  <tr>
+    <td>Background Manager</td>
+    <td><a href="https://github.com/GhostNaN/mpvpaper">Swww</a></td>
+  </tr>
+  <tr>
+    <td>Terminal</td>
+    <td><a href="https://github.com/kovidgoyal/kitty">Kitty</a></td>
+  </tr>
+  <tr>
+    <td>Window Switcher & Launcher</td>
+    <td><a href="https://github.com/davatorium/rofi">Rofi</a></td>
+  </tr>
+  <tr>
+    <td>File Manager</td>
+    <td><a href="https://github.com/xfce-mirror/thunar">Thunar</a></td>
+  </tr>
+  <tr>
+    <td>Login Manager</td>
+    <td><a href="https://github.com/sddm/sddm">SDDM</a></td>
+  </tr>
+  <tr>
+    <td>Screen Locker</td>
+    <td><a href="https://github.com/hyprwm/hyprlock">Hyprlock</a></td>
+  </tr>
+  <tr>
+    <td>Widgets</td>
+    <td><a href="https://github.com/elkowar/eww?tab=readme-ov-file">Eww</a></td>
+  </tr>
+  <tr>
+    <td>Code Editor</td>
+    <td><a href="https://github.com/neovim/neovim">Neovim</a></td>
+  </tr>
+  <tr>
+    <td>Browser</td>
+    <td><a href="https://wiki.archlinux.org/title/Firefox">Firefox</a></td>
+  </tr>
+</table>
+
 
 
 
