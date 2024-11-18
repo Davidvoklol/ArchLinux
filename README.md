@@ -65,7 +65,7 @@ chmod +x ./eww
 
 ## Setting up files
 
-#### With Stow
+#### With GNU Stow
 - Install [stow](https://github.com/aspiers/stow) if you haven't already
 - Run these commands from the Wayland-dotfiles folder
 ```bash
