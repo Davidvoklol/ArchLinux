@@ -7,5 +7,6 @@
 
 ## Setup:
 
-1. Install:
+1. [Install](https://wiki.hyprland.org/Getting-Started/Installation/)
+on arch: `sudo pacman -S hyprland`
 
