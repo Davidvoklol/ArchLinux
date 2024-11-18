@@ -50,18 +50,19 @@ chmod +x ./eww
 ``` -->
 
 #### Functionality
-- Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository): [Yay](https://github.com/Jguer/yay)
-- Secure Shell: [SSH](https://github.com/openssh/openssh-portable)
-- Code version control system: [Git](https://git-scm.com/downloads/linux)
-- GitHub Terminal Interface: [Github-CLI](https://github.com/cli/cli#installation)
-- Symlink farm manager: [Stow](https://github.com/aspiers/stow)
-- Audio and video handler: [Pipewire](https://github.com/PipeWire/pipewire)
-- Media players controll: [Playerctl](https://github.com/altdesktop/playerctl)
-- Device brightness controll: [Brightnessctl](https://github.com/Hummer12007/brightnessctl)
-- Color picker: [Hyprpicker](https://github.com/hyprwm/hyprpicker)
-- Clipboard manager: [Wl-clipboard](https://github.com/bugaevc/wl-clipboard)
-- Battery Status: [acpi](https://pkgs.org/download/acpi)
-- (***Costumizing Tool:*** [Archlinux-tweak-tool](https://github.com/arcolinux/archlinux-tweak-tool))
+- ([AUR](https://wiki.archlinux.org/title/Arch_User_Repository): [Yay](https://github.com/Jguer/yay) - Arch User Repository)
+- [Archlinux-tweak-tool](https://github.com/arcolinux/archlinux-tweak-tool - Customizing Tool)
+- [SSH](https://github.com/openssh/openssh-portable) - Secure Shell
+- [Git](https://git-scm.com/downloads/linux) - Code version control system
+- [Github-CLI](https://github.com/cli/cli#installation) - GitHub Terminal Interface
+- [Stow](https://github.com/aspiers/stow) - Symlink farm manager
+- [Pipewire](https://github.com/PipeWire/pipewire) - Audio and video handler
+- [Playerctl](https://github.com/altdesktop/playerctl) - Media players control
+- [Brightnessctl](https://github.com/Hummer12007/brightnessctl) - Device brightness control
+- [Hyprpicker](https://github.com/hyprwm/hyprpicker) - Color picker
+- [Wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Clipboard manager
+- [acpi](https://pkgs.org/download/acpi) - Battery Status
+
 
 <br>
 
