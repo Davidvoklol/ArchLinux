@@ -22,7 +22,7 @@ sudo pacman -Syyu
         <td>[Hyprland](https://hyprland.org/)</td>
     </tr>
     <tr>
-        <td style="text-align: center;">Background manager</td>
+        <td align=center>Background manager</td>
         <td>[Swww](https://github.com/GhostNaN/mpvpaper)</td>
     </tr>
     <tr>
