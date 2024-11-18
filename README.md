@@ -8,7 +8,7 @@ sudo pacman -Syyu
 ## Programms
 
 #### Aesthetics
-- Compositor: [Hyprland](./dotfiles/hypr/README.md)
+- Compositor: [Hyprland](https://hyprland.org/)
 - Background manager: [Swww](https://github.com/GhostNaN/mpvpaper)
 - Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
 - Window switcher, Application launcher and dmenu replacement: [Rofi](https://github.com/davatorium/rofi)
