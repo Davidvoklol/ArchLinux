@@ -11,7 +11,51 @@ sudo pacman -Syyu
 
 <table>
     <tr>
-        <td colspan="2">Readme</td>
+        <th colspan="2">Aesthetics</th>
+    </tr>
+    <tr>
+        <th>Porpuse</th>
+        <th>Application</th>
+    </tr>
+    <tr>
+        <td>Compositor</td>
+        <td>[Hyprland](https://hyprland.org/)</td>
+    </tr>
+    <tr>
+        <td>Background manager</td>
+        <td>[Swww](https://github.com/GhostNaN/mpvpaper)</td>
+    </tr>
+    <tr>
+        <td>Terminal</td>
+        <td>[Kitty](https://github.com/kovidgoyal/kitty)</td>
+    </tr>
+    <tr>
+        <td>Window switcher, Application launcher and dmenu replacement</td>
+        <td>[Rofi](https://github.com/davatorium/rofi)</td>
+    </tr>
+    <tr>
+        <td>File manager</td>
+        <td>[Thunar](https://github.com/xfce-mirror/thunar)</td>
+    </tr>
+    <tr>
+        <td>Login manager</td>
+        <td>[SDDM](https://github.com/sddm/sddm)</td>
+    </tr>
+    <tr>
+        <td>Screen locker</td>
+        <td>[Hyprlock](https://github.com/hyprwm/hyprlock)</td>
+    </tr>
+    <tr>
+        <td>Widgets</td>
+        <td>[Eww](https://github.com/elkowar/eww?tab=readme-ov-file)</td>
+    </tr>
+    <tr>
+        <td>Code editor</td>
+        <td>[Neovim](https://github.com/neovim/neovim)</td>
+    </tr>
+    <tr>
+        <td>Browser</td>
+        <td>[Firefox](https://wiki.archlinux.org/title/Firefox)</td>
     </tr>
 </table>
 
