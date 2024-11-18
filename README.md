@@ -9,16 +9,17 @@ sudo pacman -Syyu
 
 #### Aesthetics
 
-- Compositor: [Hyprland](https://hyprland.org/)
-- Background manager: [Swww](https://github.com/GhostNaN/mpvpaper)
-- Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
-- Window switcher, Application launcher and dmenu replacement: [Rofi](https://github.com/davatorium/rofi)
-- File manager: [Thunar](https://github.com/xfce-mirror/thunar)
-- Login manager: [SDDM](https://github.com/sddm/sddm)
-- Screen locker: [Hyprlock](https://github.com/hyprwm/hyprlock)
-- Widgets: [Eww](https://github.com/elkowar/eww?tab=readme-ov-file)
-- Code editor: [Neovim](https://github.com/neovim/neovim)
-- Browser: [Firefox](https://wiki.archlinux.org/title/Firefox)
+- [Hyprland](https://hyprland.org/) - Compositor
+- [Swww](https://github.com/GhostNaN/mpvpaper) - Background manager
+- [Kitty](https://github.com/kovidgoyal/kitty) - Terminal
+- [Rofi](https://github.com/davatorium/rofi) - Window switcher, Application launcher and dmenu replacement
+- [Thunar](https://github.com/xfce-mirror/thunar) - File manager
+- [SDDM](https://github.com/sddm/sddm) - Login manager
+- [Hyprlock](https://github.com/hyprwm/hyprlock) - Screen locker
+- [Eww](https://github.com/elkowar/eww?tab=readme-ov-file) - Widgets
+- [Neovim](https://github.com/neovim/neovim) - Code editor
+- [Firefox](https://support.mozilla.org/hu/kb/Firefox%20telep%C3%ADt%C3%A9se%20Linuxra#w_install-firefox-deb-package-for-debian-based-distributions) - Browser
+
 
 *Set the background once and it will load the last one on startup automaticly:*
 ```bash
