@@ -14,50 +14,51 @@ sudo pacman -Syyu
         <th colspan="2">Aesthetics</th>
     </tr>
     <tr>
-        <th>Porpuse</th>
+        <th>Purpose</th>
         <th>Application</th>
     </tr>
     <tr>
         <td>Compositor</td>
-        <td>[Hyprland](https://hyprland.org/)</td>
+        <td><a href="https://hyprland.org/">Hyprland</a></td>
     </tr>
     <tr>
         <td>Background manager</td>
-        <td>[Swww](https://github.com/GhostNaN/mpvpaper)</td>
+        <td><a href="https://github.com/GhostNaN/mpvpaper">Swww</a></td>
     </tr>
     <tr>
         <td>Terminal</td>
-        <td>[Kitty](https://github.com/kovidgoyal/kitty)</td>
+        <td><a href="https://github.com/kovidgoyal/kitty">Kitty</a></td>
     </tr>
     <tr>
         <td>Window switcher, Application launcher and dmenu replacement</td>
-        <td>[Rofi](https://github.com/davatorium/rofi)</td>
+        <td><a href="https://github.com/davatorium/rofi">Rofi</a></td>
     </tr>
     <tr>
         <td>File manager</td>
-        <td>[Thunar](https://github.com/xfce-mirror/thunar)</td>
+        <td><a href="https://github.com/xfce-mirror/thunar">Thunar</a></td>
     </tr>
     <tr>
         <td>Login manager</td>
-        <td>[SDDM](https://github.com/sddm/sddm)</td>
+        <td><a href="https://github.com/sddm/sddm">SDDM</a></td>
     </tr>
     <tr>
         <td>Screen locker</td>
-        <td>[Hyprlock](https://github.com/hyprwm/hyprlock)</td>
+        <td><a href="https://github.com/hyprwm/hyprlock">Hyprlock</a></td>
     </tr>
     <tr>
         <td>Widgets</td>
-        <td>[Eww](https://github.com/elkowar/eww?tab=readme-ov-file)</td>
+        <td><a href="https://github.com/elkowar/eww?tab=readme-ov-file">Eww</a></td>
     </tr>
     <tr>
         <td>Code editor</td>
-        <td>[Neovim](https://github.com/neovim/neovim)</td>
+        <td><a href="https://github.com/neovim/neovim">Neovim</a></td>
     </tr>
     <tr>
         <td>Browser</td>
-        <td>[Firefox](https://wiki.archlinux.org/title/Firefox)</td>
+        <td><a href="https://wiki.archlinux.org/title/Firefox">Firefox</a></td>
     </tr>
 </table>
+
 
 - Compositor: [Hyprland](https://hyprland.org/)
 - Background manager: [Swww](https://github.com/GhostNaN/mpvpaper)
