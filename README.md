@@ -52,7 +52,7 @@ chmod +x ./eww
 #### Functionality
 - ([Yay](https://github.com/Jguer/yay) - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository))
 - ([Archlinux-tweak-tool](https://github.com/arcolinux/archlinux-tweak-tool) - Customizing Tool)
-- [SSH](https://github.com/openssh/openssh-portable) - Secure Shell
+- [OpenSSH](https://github.com/openssh/openssh-portable) - Secure Shell
 - [Git](https://git-scm.com/downloads/linux) - Code version control system
 - [Github-CLI](https://github.com/cli/cli#installation) - GitHub Terminal Interface
 - [Stow](https://github.com/aspiers/stow) - Symlink farm manager
@@ -63,31 +63,9 @@ chmod +x ./eww
 - [Wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Clipboard manager
 - [acpi](https://pkgs.org/download/acpi) - Battery Status
 
-
-<br>
-
-Build yay
-```bash
-sudo pacman -S --needed git base-devel
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-```
-
-Install programms from arch packages
-```bash
-sudo pacman -S --needed openssh git github-cli stow pipewire playerctl brightnessctl hyprpicker wl-clipboard acpi
-
-#additional packages for pipewire
-sudo pacman -S --needed pipewire-pulse pipewire-jack wireplumber
-```
-
-Installing programms form the AUR
-```bash
-yay -S archlinux-tweak-tool-git
-```
-
 ## Setting up files
+
+#### With Stow
 - Install [stow](https://github.com/aspiers/stow) if you haven't already
 - Run these commands from the folder where the README.md is
 ```bash
@@ -98,10 +76,3 @@ cp fonts/* ~/.fonts/
 cp backgrounds/* ~/.config/backgrounds/
 fc-cache -fv
 ```
-
-
-| Column 1 Header | Column 2 Header | Column 3 Header |
-|------------------|-----------------|-----------------|
-| Row 1, Cell 1   | Row 1, Cell 2   | Row 1, Cell 3   |
-| Row 2, Cell 1   | Row 2, Cell 2   | Row 2, Cell 3   |
-| Row 3, Cell 1   | Row 3, Cell 2   | Row 3, Cell 3   |
