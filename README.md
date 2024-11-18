@@ -7,13 +7,43 @@ sudo pacman -Syyu
 
 ## Programms
 
-<blockquote>
-<h1>Foo</h1>
-<p>bar
-baz</p>
-</blockquote>
-
 #### Aesthetics
+
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+
+<table>
+  <tr>
+    <th>Purpose</th>
+    <th>Application</th>
+  </tr>
+  <tr>
+    <td>Compositor</td>
+    <td><a href="https://hyprland.org/">Hyprland</a></td>
+  </tr>
+  <tr>
+    <td>Background Manager</td>
+    <td><a href="https://github.com/GhostNaN/mpvpaper">Swww</a></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Purpose</th>
+    <th>Application</th>
+  </tr>
+  <tr>
+    <td>Code Editor</td>
+    <td><a href="https://github.com/neovim/neovim">Neovim</a></td>
+  </tr>
+  <tr>
+    <td>Browser</td>
+    <td><a href="https://wiki.archlinux.org/title/Firefox">Firefox</a></td>
+  </tr>
+</table>
+
+</div>
+
+
 - Compositor: [Hyprland](https://hyprland.org/)
 - Background manager: [Swww](https://github.com/GhostNaN/mpvpaper)
 - Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
