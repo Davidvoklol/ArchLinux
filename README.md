@@ -50,7 +50,7 @@ chmod +x ./eww
 ``` -->
 
 #### Functionality
-- (Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository): [Yay](https://github.com/Jguer/yay) - Arch User Repository)
+- ([Yay](https://github.com/Jguer/yay) - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository))
 - ([Archlinux-tweak-tool](https://github.com/arcolinux/archlinux-tweak-tool) - Customizing Tool)
 - [SSH](https://github.com/openssh/openssh-portable) - Secure Shell
 - [Git](https://git-scm.com/downloads/linux) - Code version control system
