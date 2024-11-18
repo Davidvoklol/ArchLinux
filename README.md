@@ -1,13 +1,12 @@
-# Arch Hyprland config
+# Hyprland Rice
 
 ## Programms
 
 #### Aesthetics
-
 - [Hyprland](https://hyprland.org/) - Compositor
 - [Swww](https://github.com/GhostNaN/mpvpaper) - Background manager
 - [Kitty](https://github.com/kovidgoyal/kitty) - Terminal
-- [Rofi](https://github.com/davatorium/rofi) - Window switcher, Application launcher and dmenu replacement
+- [Rofi](https://github.com/davatorium/rofi) - Window switcher, Application launcher and dmenu replacement, costum scripts
 - [Thunar](https://github.com/xfce-mirror/thunar) - File manager
 - [SDDM](https://github.com/sddm/sddm) - Login manager
 - [Hyprlock](https://github.com/hyprwm/hyprlock) - Screen locker
@@ -16,43 +15,10 @@
 - [Firefox](https://support.mozilla.org/hu/kb/Firefox%20telep%C3%ADt%C3%A9se%20Linuxra#w_install-firefox-deb-package-for-debian-based-distributions) - Browser
 
 
-<!-- *Set the background once and it will load the last one on startup automaticly:*
-```bash
-swww img <img path>
-```
-<br>
-
-Install programms from arch packages
-```bash
-sudo pacman -S --needed hyprland swww kitty rofi thunar sddm firefox neovim neofetch hyprlock
-```
-
-Enable sddm
-```bash
-sudo systemctl enable sddm
-``` -->
-
-<!-- Install programms from arch AUR(first get [Yay](https://wiki.archlinux.org/title/Arch_User_Repository))
-```bash
-yay -S
-``` -->
-
-<!-- Building eww
-```bash
-sudo pacman -S cargo
-sudo pacman -S --needed cargo gtk3 gtk-layer-shell pango gdk-pixbuf2 libdbusmenu-gtk3 cairo glib2 gcc-libs glibc
-git clone https://github.com/elkowar/eww
-cd eww
-cargo build --release --no-default-features --features=wayland
-cd target/release
-chmod +x ./eww
-./eww daemon
-``` -->
-
 #### Functionality
+<!-- - ([Archlinux-tweak-tool](https://github.com/arcolinux/archlinux-tweak-tool) - Customizing Tool) -->
 - ([Yay](https://github.com/Jguer/yay) - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository))
-- ([Archlinux-tweak-tool](https://github.com/arcolinux/archlinux-tweak-tool) - Customizing Tool)
-- [OpenSSH](https://github.com/openssh/openssh-portable) - Secure Shell
+- [OpenSSH](https://github.com/openssh/openssh-portable) - Secure remote access
 - [Git](https://git-scm.com/downloads/linux) - Code version control system
 - [Github-CLI](https://github.com/cli/cli#installation) - GitHub Terminal Interface
 - [Stow](https://github.com/aspiers/stow) - Symlink farm manager
@@ -76,3 +42,10 @@ cp fonts/* ~/.fonts/
 cp backgrounds/* ~/.config/backgrounds/
 fc-cache -fv
 ```
+
+#### Manually
+- From the fonts folder copy everything to the `~/.fonts/` folder
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+- From the backgrounds folder copy everything to the `~/.config/backgrounds/` folder
