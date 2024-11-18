@@ -51,23 +51,14 @@ sudo fc-cache -fv
 
 #### Manually
 - From the `fonts` folder copy everything to the `~/.fonts/` folder
-> [!NOTE]
-> You have to update the fonts cache to see the fonts in use:
-> ```bash
-> sudo fc-cache -fv
-> ```
+- Update fonts cache:
+```bash
+sudo fc-cache -fv
+```
 - From the `backgrounds` folder copy everything to the `~/.config/backgrounds/` folder
-- In the `dotfiles` folder look for the config or styling files and copy or link them into the correct folder under `~/.config/`
+- In the `dotfiles` folder look for the **config** or **styling** files and copy or link them **into the correct folder** under `~/.config/`
 > For Example:
 > From `./dotfiles/hypr/.config/hypr/`, the `hyprland.conf` and `hyprclock.conf` should be copied to `~/.config/hypr`
 
 > [!NOTE]
 > The file structure was built like this so stow can work correctly.
-
-## About the configurations
-
-> [!NOTE]
-> In the hyprland config `swww` is being `init`ialized on startup but you have to set a background and it will load the last one automaticly
-> ```bash
-> swww img <image path>
-> ```
