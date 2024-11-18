@@ -9,51 +9,23 @@ sudo pacman -Syyu
 
 #### Aesthetics
 
-<table style="width:500px">
-  <tr>
-    <th style="text-align:left">Component</th>
-    <th style="text-align:left">Application</th>
-  </tr>
-  <tr>
-    <td>Compositor</td>
-    <td><a href="https://hyprland.org/">Hyprland</a></td>
-  </tr>
-  <tr>
-    <td>Background Manager</td>
-    <td><a href="https://github.com/GhostNaN/mpvpaper">Swww</a></td>
-  </tr>
-  <tr>
-    <td>Terminal</td>
-    <td><a href="https://github.com/kovidgoyal/kitty">Kitty</a></td>
-  </tr>
-  <tr>
-    <td>Window Switcher & Launcher</td>
-    <td><a href="https://github.com/davatorium/rofi">Rofi</a></td>
-  </tr>
-  <tr>
-    <td>File Manager</td>
-    <td><a href="https://github.com/xfce-mirror/thunar">Thunar</a></td>
-  </tr>
-  <tr>
-    <td>Login Manager</td>
-    <td><a href="https://github.com/sddm/sddm">SDDM</a></td>
-  </tr>
-  <tr>
-    <td>Screen Locker</td>
-    <td><a href="https://github.com/hyprwm/hyprlock">Hyprlock</a></td>
-  </tr>
-  <tr>
-    <td>Widgets</td>
-    <td><a href="https://github.com/elkowar/eww?tab=readme-ov-file">Eww</a></td>
-  </tr>
-  <tr>
-    <td>Code Editor</td>
-    <td><a href="https://github.com/neovim/neovim">Neovim</a></td>
-  </tr>
-  <tr>
-    <td>Browser</td>
-    <td><a href="https://wiki.archlinux.org/title/Firefox">Firefox</a></td>
-  </tr>
+<table>
+<thead>
+<tr>
+<th>abc</th>
+<th>def</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bar</td>
+<td></td>
+</tr>
+<tr>
+<td>bar</td>
+<td>baz</td>
+</tr>
+</tbody>
 </table>
 
 
