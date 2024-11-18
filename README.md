@@ -18,44 +18,44 @@ sudo pacman -Syyu
         <th>Application</th>
     </tr>
     <tr>
-        <td>Compositor</td>
-        <td>[Hyprland](https://hyprland.org/)</td>
+        <td align=center>Compositor</td>
+        <td align=center>[Hyprland](https://hyprland.org/)</td>
     </tr>
     <tr>
         <td align=center>Background manager</td>
-        <td>[Swww](https://github.com/GhostNaN/mpvpaper)</td>
+        <td align=center>[Swww](https://github.com/GhostNaN/mpvpaper)</td>
     </tr>
     <tr>
-        <td>Terminal</td>
-        <td>[Kitty](https://github.com/kovidgoyal/kitty)</td>
+        <td align=center>Terminal</td>
+        <td align=center>[Kitty](https://github.com/kovidgoyal/kitty)</td>
     </tr>
     <tr>
-        <td>Window switcher, Application launcher and dmenu replacement</td>
-        <td>[Rofi](https://github.com/davatorium/rofi)</td>
+        <td align=center>Window switcher, Application launcher and dmenu replacement</td>
+        <td align=center>[Rofi](https://github.com/davatorium/rofi)</td>
     </tr>
     <tr>
-        <td>File manager</td>
-        <td>[Thunar](https://github.com/xfce-mirror/thunar)</td>
+        <td align=center>File manager</td>
+        <td align=center>[Thunar](https://github.com/xfce-mirror/thunar)</td>
     </tr>
     <tr>
-        <td>Login manager</td>
-        <td>[SDDM](https://github.com/sddm/sddm)</td>
+        <td align=center>Login manager</td>
+        <td align=center>[SDDM](https://github.com/sddm/sddm)</td>
     </tr>
     <tr>
-        <td>Screen locker</td>
-        <td>[Hyprlock](https://github.com/hyprwm/hyprlock)</td>
+        <td align=center>Screen locker</td>
+        <td align=center>[Hyprlock](https://github.com/hyprwm/hyprlock)</td>
     </tr>
     <tr>
-        <td>Widgets</td>
-        <td>[Eww](https://github.com/elkowar/eww?tab=readme-ov-file)</td>
+        <td align=center>Widgets</td>
+        <td align=center>[Eww](https://github.com/elkowar/eww?tab=readme-ov-file)</td>
     </tr>
     <tr>
-        <td>Code editor</td>
-        <td>[Neovim](https://github.com/neovim/neovim)</td>
+        <td align=center>Code editor</td>
+        <td align=center>[Neovim](https://github.com/neovim/neovim)</td>
     </tr>
     <tr>
-        <td>Browser</td>
-        <td>[Firefox](https://wiki.archlinux.org/title/Firefox)</td>
+        <td align=center>Browser</td>
+        <td align=center>[Firefox](https://wiki.archlinux.org/title/Firefox)</td>
     </tr>
 </table>
 
