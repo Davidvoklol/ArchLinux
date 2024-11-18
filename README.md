@@ -8,7 +8,7 @@ sudo pacman -Syyu
 ## Programms
 
 #### Aesthetics
-| Porpuse    |   Name   |
+|Porpuse|Name|
 |------------|----------|
 | Compositor | Hyprland |
 
