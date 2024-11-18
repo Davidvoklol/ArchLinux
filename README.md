@@ -46,6 +46,9 @@ fc-cache -fv
 #### Manually
 - From the fonts folder copy everything to the `~/.fonts/` folder
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
+> You have to update the fonts cache to see the fonts in use:
+> ```bash
+> sudo fc-cache -fv
+> ```
 
 - From the backgrounds folder copy everything to the `~/.config/backgrounds/` folder
