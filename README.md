@@ -30,7 +30,7 @@
 - [acpi](https://pkgs.org/download/acpi) - Battery Status
 
 > [!TIP]
-> First look after programms in your distros packages so you don't have to build them all.
+> First look after the programms in your distros [package manager](https://en.wikipedia.org/wiki/List_of_software_package_management_systems#Linux) so you don't have to build them all.
 
 ## Setting up files
 
