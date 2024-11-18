@@ -8,6 +8,10 @@ sudo pacman -Syyu
 ## Programms
 
 #### Aesthetics
+| Porpuse    |   Name   |
+|------------|----------|
+| Compositor | Hyprland |
+
 - Compositor: [Hyprland](https://hyprland.org/)
 - Background manager: [Swww](https://github.com/GhostNaN/mpvpaper)
 - Terminal: [Kitty](https://github.com/kovidgoyal/kitty)
