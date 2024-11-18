@@ -57,5 +57,6 @@ sudo fc-cache -fv
 - In the `dotfiles` folder look for the config or styling files and copy or link them into the correct folder under `~/.config/`
 > For Example:
 > From `./dotfiles/hypr/.config/hypr/`, the `hyprland.conf` and `hyprclock.conf` should be copied to `~/.config/hypr`
+
 > [!NOTE]
 > The file structure was built for stow to work correctly.
