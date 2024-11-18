@@ -159,6 +159,8 @@ configuration {
     display-window: "windows";
     display-run: "< / >";
     display-ssh: "ssh";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
 }
 
 @theme "mytheme.rasi"

@@ -129,7 +129,7 @@ States
     selected: #0BEF75;
     active: #1a63bd;
 
-    font: "Cascadia Code 25";
+    font: "Cascadia Code 20";
     text-color: @fg;
     background-color: @bg;
 }
@@ -145,7 +145,7 @@ window {
 
 inputbar {
     background-color: inherit;
-    spacing: 1em;
+    spacing: 0.5em;
     children: [input, sidebar];
 }
 
@@ -163,6 +163,7 @@ textbox-icon, entry {
     padding: 0.25em 0.5em;
 }
 entry {
+    font: "Cascadia Code italic bold";
     border-radius: 5px;
     padding: 0.25em 0.75em;
     placeholder: "search";
@@ -180,7 +181,7 @@ sidebar {
 }
 button {
     expand: true;
-    padding: 0.25em;
+    padding: 0 0.5em;
     border-radius: 10px 10px 0px 0px;
     background-color: @bg;
     color: @fg;
@@ -192,19 +193,36 @@ button selected {
 
 
 listview {
-    padding: 1em;
+    padding: 0.5em 1em;
+    flow: horizontal;
+    spacing: 0.5em;
+    columns: 5;
+    fixed-columns: true;
+    lines: 5;
     color: @bg;
     background-color: @fg;
-    flow: horizontal;
-    columns: 5;
-    spacing: 0.5em;
-    border-radius: 5px;
 }
-element {
-    orientation: vertical;
-    children: [element-icon, element-text];
-}
+
 element, element-text, element-icon {
     color: inherit;
     background-color: inherit;
+}
+element {
+    expand: false;
+    orientation: vertical;
+    border-radius: 10px;
+    padding: 0.1em;
+    children: [element-icon, element-text];
+}
+element selected {
+    color: @fg;
+    background-color: @bg;
+}
+element-text {
+    expand: true;
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+}
+element-icon {
+    size: 2em;
 }
