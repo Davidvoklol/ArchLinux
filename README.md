@@ -63,3 +63,11 @@ sudo fc-cache -fv
 
 > [!NOTE]
 > The file structure was built like this so stow can work correctly.
+
+## About the configurations
+
+> [!NOTE]
+> In the hyprland config `swww` is being `init`ialized on startup but you have to set a background and it will load the last one automaticly
+> ```bash
+> swww img <image path>
+> ```
