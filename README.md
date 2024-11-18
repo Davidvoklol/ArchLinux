@@ -2,6 +2,9 @@
 
 ## Programms
 
+> [!TIP]
+> First look after the programms in your distro's [package manager](https://en.wikipedia.org/wiki/List_of_software_package_management_systems#Linux) so you don't have to build them all.
+
 #### Aesthetics
 - [Hyprland](https://hyprland.org/) - Compositor
 - [Swww](https://github.com/GhostNaN/mpvpaper) - Background manager
@@ -29,9 +32,6 @@
 - [Wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Clipboard manager
 - [acpi](https://pkgs.org/download/acpi) - Battery Status
 
-> [!TIP]
-> First look after the programms in your distros [package manager](https://en.wikipedia.org/wiki/List_of_software_package_management_systems#Linux) so you don't have to build them all.
-
 ## Setting up files
 
 #### With GNU Stow
@@ -43,7 +43,7 @@ mkdir -p ~/.config/backgrounds
 stow -t ~/ -d dotfiles/ -S eww hypr kitty rofi --verbose=1
 cp fonts/* ~/.fonts/
 cp backgrounds/* ~/.config/backgrounds/
-fc-cache -fv
+sudo fc-cache -fv
 ```
 
 #### Manually
@@ -53,5 +53,4 @@ fc-cache -fv
 > ```bash
 > sudo fc-cache -fv
 > ```
-
 - From the backgrounds folder copy everything to the `~/.config/backgrounds/` folder
