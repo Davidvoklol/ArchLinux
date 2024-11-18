@@ -1,10 +1,5 @@
 # Arch Hyprland config
 
-Update your system:
-```bash
-sudo pacman -Syyu
-```
-
 ## Programms
 
 #### Aesthetics
@@ -21,7 +16,7 @@ sudo pacman -Syyu
 - [Firefox](https://support.mozilla.org/hu/kb/Firefox%20telep%C3%ADt%C3%A9se%20Linuxra#w_install-firefox-deb-package-for-debian-based-distributions) - Browser
 
 
-*Set the background once and it will load the last one on startup automaticly:*
+<!-- *Set the background once and it will load the last one on startup automaticly:*
 ```bash
 swww img <img path>
 ```
@@ -35,14 +30,14 @@ sudo pacman -S --needed hyprland swww kitty rofi thunar sddm firefox neovim neof
 Enable sddm
 ```bash
 sudo systemctl enable sddm
-```
+``` -->
 
 <!-- Install programms from arch AUR(first get [Yay](https://wiki.archlinux.org/title/Arch_User_Repository))
 ```bash
 yay -S
 ``` -->
 
-Building eww
+<!-- Building eww
 ```bash
 sudo pacman -S cargo
 sudo pacman -S --needed cargo gtk3 gtk-layer-shell pango gdk-pixbuf2 libdbusmenu-gtk3 cairo glib2 gcc-libs glibc
@@ -52,12 +47,12 @@ cargo build --release --no-default-features --features=wayland
 cd target/release
 chmod +x ./eww
 ./eww daemon
-```
+``` -->
 
 #### Functionality
 - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository): [Yay](https://github.com/Jguer/yay)
-- Secure Shell: [SSH](https://wiki.archlinux.org/title/OpenSSH)
-- Code version control system: [Git](https://wiki.archlinux.org/title/Git)
+- Secure Shell: [SSH](https://github.com/openssh/openssh-portable)
+- Code version control system: [Git](https://git-scm.com/downloads/linux)
 - GitHub Terminal Interface: [Github-CLI](https://github.com/cli/cli#installation)
 - Symlink farm manager: [Stow](https://github.com/aspiers/stow)
 - Audio and video handler: [Pipewire](https://github.com/PipeWire/pipewire)
@@ -65,8 +60,8 @@ chmod +x ./eww
 - Device brightness controll: [Brightnessctl](https://github.com/Hummer12007/brightnessctl)
 - Color picker: [Hyprpicker](https://github.com/hyprwm/hyprpicker)
 - Clipboard manager: [Wl-clipboard](https://github.com/bugaevc/wl-clipboard)
-- Battery Status: [acpi](https://archlinux.org/packages/extra/x86_64/acpi/)
-- ***Costumizing Tool:*** [Archlinux-tweak-tool](https://github.com/arcolinux/archlinux-tweak-tool)
+- Battery Status: [acpi](https://pkgs.org/download/acpi)
+- (***Costumizing Tool:*** [Archlinux-tweak-tool](https://github.com/arcolinux/archlinux-tweak-tool))
 
 <br>
 
