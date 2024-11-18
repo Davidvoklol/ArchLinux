@@ -1,5 +1,10 @@
 # Arch Hyprland config
 
+Update your system:
+```bash
+sudo pacman -Syyu
+```
+
 ## Programms
 
 #### Aesthetics
@@ -14,7 +19,7 @@
 - Code editor: [Neovim](https://github.com/neovim/neovim)
 - Browser: [Firefox](https://wiki.archlinux.org/title/Firefox)
 
-*Set the background once and it will load the last one automaticly:*
+*Set the background once and it will load the last one on startup automaticly:*
 ```bash
 swww img <img path>
 ```
@@ -37,6 +42,7 @@ yay -S
 
 Building eww
 ```bash
+sudo pacman -S cargo
 sudo pacman -S --needed cargo gtk3 gtk-layer-shell pango gdk-pixbuf2 libdbusmenu-gtk3 cairo glib2 gcc-libs glibc
 git clone https://github.com/elkowar/eww
 cd eww
@@ -57,6 +63,7 @@ chmod +x ./eww
 - Device brightness controll: [Brightnessctl](https://github.com/Hummer12007/brightnessctl)
 - Color picker: [Hyprpicker](https://github.com/hyprwm/hyprpicker)
 - Clipboard manager: [Wl-clipboard](https://github.com/bugaevc/wl-clipboard)
+- Battery Status: [acpi](https://archlinux.org/packages/extra/x86_64/acpi/)
 - ***Costumizing Tool:*** [Archlinux-tweak-tool](https://github.com/arcolinux/archlinux-tweak-tool)
 
 <br>
@@ -71,7 +78,7 @@ makepkg -si
 
 Install programms from arch packages
 ```bash
-sudo pacman -S --needed openssh git github-cli stow pipewire playerctl brightnessctl hyprpicker wl-clipboard
+sudo pacman -S --needed openssh git github-cli stow pipewire playerctl brightnessctl hyprpicker wl-clipboard acpi
 
 #additional packages for pipewire
 sudo pacman -S --needed pipewire-pulse pipewire-jack wireplumber
