@@ -9,7 +9,7 @@ sudo pacman -Syyu
 
 #### Aesthetics
 
-<table style="width:100%">
+<table style="width:500px">
   <tr>
     <th style="text-align:left">Component</th>
     <th style="text-align:left">Application</th>
