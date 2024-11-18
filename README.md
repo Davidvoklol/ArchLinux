@@ -67,7 +67,7 @@ chmod +x ./eww
 
 #### With Stow
 - Install [stow](https://github.com/aspiers/stow) if you haven't already
-- Run these commands from the folder where the README.md is
+- Run these commands from the Wayland-dotfiles folder
 ```bash
 mkdir -p ~/.fonts
 mkdir -p ~/.config/backgrounds
