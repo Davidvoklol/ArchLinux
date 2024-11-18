@@ -35,7 +35,7 @@
 ## Setting up files
 
 > [!TIP]
-> GNU Stow simplifies dotfile management by creating symbolic links from a central repository to their appropriate locations, ensuring a clean, modular, and easily version-controlled setup.
+> *GNU Stow simplifies dotfile management by creating symbolic links from a central repository to their appropriate locations, ensuring a clean, modular, and easily version-controlled setup.*
 
 #### With GNU Stow
 - Install [stow](https://github.com/aspiers/stow) if you haven't already
