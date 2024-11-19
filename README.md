@@ -43,7 +43,7 @@
 ```bash
 mkdir -p ~/.fonts
 mkdir -p ~/.config/backgrounds
-stow -t ~/.config -d dotfiles/ -S eww hypr kitty rofi --verbose=1
+stow -t ~/.config -S dotfiles --verbose=1
 cp fonts/* ~/.fonts/
 cp backgrounds/* ~/.config/backgrounds/
 sudo fc-cache -fv
@@ -56,9 +56,6 @@ sudo fc-cache -fv
 sudo fc-cache -fv
 ```
 - From the `backgrounds` folder copy everything to the `~/.config/backgrounds/` folder
-- In the `dotfiles` folder look for the **config** or **styling** files and copy or link them **into the correct folder** under `~/.config/`
+- In the `dotfiles` folder copy the **config** or **styling** files **into the correct folder** under `~/.config/`
 > For Example:
-> From `./dotfiles/hypr/.config/hypr/`, the `hyprland.conf` and `hyprclock.conf` should be copied to `~/.config/hypr`
-
-> [!NOTE]
-> The file structure was built like this so stow can work correctly.
+> From `./dotfiles/hypr/`, the `hyprland.conf` and `hyprclock.conf` should be copied to `~/.config/hypr`
