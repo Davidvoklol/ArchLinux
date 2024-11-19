@@ -34,28 +34,26 @@
 
 ## Setting up files
 
-> [!TIP]
-> *GNU Stow simplifies dotfile management by creating symbolic links from a central repository to their appropriate locations, ensuring a clean, modular, and easily version-controlled setup.*
-
-#### With GNU Stow
-- Install [stow](https://github.com/aspiers/stow) if you haven't already
-- Run these commands from the [Wayland-dotfiles](./) folder
+- Fonts and backgrounds
 ```bash
 mkdir -p ~/.fonts
 mkdir -p ~/.config/backgrounds
-stow -t ~/.config -S dotfiles --verbose=1
 cp fonts/* ~/.fonts/
 cp backgrounds/* ~/.config/backgrounds/
 sudo fc-cache -fv
 ```
 
-#### Manually
-- From the `fonts` folder copy everything to the `~/.fonts/` folder
-- Update fonts cache:
+> [!TIP]
+> *GNU Stow simplifies dotfile management by creating symbolic links from a central repository to their appropriate locations, ensuring a clean, modular, and easily version-controlled setup.*
+
+#### With GNU Stow
+- Install [stow](https://github.com/aspiers/stow) if you haven't already
+- Run thiis command from the [Wayland-dotfiles](./) folder
 ```bash
-sudo fc-cache -fv
+stow -t ~/.config -S dotfiles --verbose=1
 ```
-- From the `backgrounds` folder copy everything to the `~/.config/backgrounds/` folder
-- In the `dotfiles` folder copy the **config** or **styling** files **into the correct folder** under `~/.config/`
+
+#### Manually
+- In the `dotfiles` folder copy or link the **config** or **styling** files **into the correct folder** under `~/.config/`
 > For Example:
-> From `./dotfiles/hypr/`, the `hyprland.conf` and `hyprclock.conf` should be copied to `~/.config/hypr`
+> From `./dotfiles/hypr/`, the `hyprland.conf` and `hyprclock.conf` should be in `~/.config/hypr`
