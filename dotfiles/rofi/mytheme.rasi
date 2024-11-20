@@ -211,7 +211,7 @@ element {
     expand: false;
     orientation: vertical;
     border-radius: 10px;
-    padding: 0.1em;
+    padding: 0.1em 0.5em;
     children: [element-icon, element-text];
 }
 element selected {
