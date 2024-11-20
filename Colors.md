@@ -1,2 +1,2 @@
 # Dark-Grey
-- ![#FF5733](https://www.colorhexa.com/ff5733.png) `#FF5733`
+![FFFBE8](https://via.placeholder.com/200/FFFBE8/000000?text=FFFBE8) `#FFFBE8`
