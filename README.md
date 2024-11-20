@@ -57,3 +57,5 @@ stow -t ~/.config -S dotfiles --verbose=1
 - In the `dotfiles` folder copy or link the **config** or **styling** files **into the correct folder** under `~/.config/`
 > For Example:
 > From `./dotfiles/hypr/`, the `hyprland.conf` and `hyprclock.conf` should be in `~/.config/hypr`
+
+## [Color palettes](Colors.md)
