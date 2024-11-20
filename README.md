@@ -17,4 +17,39 @@
 - [Neovim](https://github.com/neovim/neovim) - Code editor
 - [Firefox](https://support.mozilla.org/hu/kb/Firefox%20telep%C3%ADt%C3%A9se%20Linuxra#w_install-firefox-deb-package-for-debian-based-distributions) - Browser
 
+
+#### Functionality
+- ([Yay](https://github.com/Jguer/yay) - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository))
+- [OpenSSH](https://github.com/openssh/openssh-portable) - Secure remote access
+- [Git](https://git-scm.com/downloads/linux) - Code version control system
+- [Github-CLI](https://github.com/cli/cli#installation) - GitHub Terminal Interface
+- [Stow](https://github.com/aspiers/stow) - Symlink farm manager
+- [Pipewire](https://github.com/PipeWire/pipewire) - Audio and video handler
+- [Playerctl](https://github.com/altdesktop/playerctl) - Media players control
+- [Brightnessctl](https://github.com/Hummer12007/brightnessctl) - Device brightness control
+- [Hyprpicker](https://github.com/hyprwm/hyprpicker) - Color picker
+- [Wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Clipboard manager
+- [acpi](https://pkgs.org/download/acpi) - Battery Status
+
+## Setting up files
+
+- Fonts and backgrounds
+```bash
+mkdir -p ~/.fonts
+mkdir -p ~/.config/backgrounds
+cp fonts/* ~/.fonts/
+cp backgrounds/* ~/.config/backgrounds/
+sudo fc-cache -fv
+```
+
+#### With GNU Stow
+> [!TIP]
+> *GNU Stow simplifies dotfile management by creating symbolic links from a central repository to their appropriate locations, ensuring a clean, modular, and easily version-controlled setup.*
+
+- Install [stow](https://github.com/aspiers/stow) if you haven't already
+- Run this command from the [Wayland-dotfiles](./) folder
+```bash
+stow -t ~/.config -S dotfiles --verbose=1
+```
+
 ## [Themes](./sources/Themes.md)
