@@ -19,7 +19,6 @@
 
 
 #### Functionality
-<!-- - ([Archlinux-tweak-tool](https://github.com/arcolinux/archlinux-tweak-tool) - Customizing Tool) -->
 - ([Yay](https://github.com/Jguer/yay) - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository))
 - [OpenSSH](https://github.com/openssh/openssh-portable) - Secure remote access
 - [Git](https://git-scm.com/downloads/linux) - Code version control system
@@ -43,19 +42,14 @@ cp backgrounds/* ~/.config/backgrounds/
 sudo fc-cache -fv
 ```
 
+#### With GNU Stow
 > [!TIP]
 > *GNU Stow simplifies dotfile management by creating symbolic links from a central repository to their appropriate locations, ensuring a clean, modular, and easily version-controlled setup.*
 
-#### With GNU Stow
 - Install [stow](https://github.com/aspiers/stow) if you haven't already
-- Run thiis command from the [Wayland-dotfiles](./) folder
+- Run this command from the [Wayland-dotfiles](./) folder
 ```bash
 stow -t ~/.config -S dotfiles --verbose=1
 ```
 
-#### Manually
-- In the `dotfiles` folder copy or link the **config** or **styling** files **into the correct folder** under `~/.config/`
-> For Example:
-> From `./dotfiles/hypr/`, the `hyprland.conf` and `hyprclock.conf` should be in `~/.config/hypr`
-
-## [Color palettes](Colors.md)
+## [Themes](Themes.md)

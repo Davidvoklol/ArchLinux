@@ -1,5 +1,6 @@
-# Dark-Light
+# Colors
 - ![dark](https://placehold.co/15x15/0F161E/0F161E.png) `#0F161E`
+- ![gray](https://placehold.co/15x15/273341/273341.png) `#273341`
 - ![blue](https://placehold.co/15x15/32568C/32568C.png) `#32568C`
 - ![red](https://placehold.co/15x15/F92633/F92633.png) `#F92633`
 - ![green](https://placehold.co/15x15/0BEF75/0BEF75.png) `#0BEF75`
@@ -8,6 +9,9 @@
 - ![yellow](https://placehold.co/15x15/FBE60B/FBE60B.png) `#FBE60B`
 - ![white](https://placehold.co/15x15/FFFBE8/FFFBE8.png) `#FFFBE8`
 
-# Dark
 
-# Light
+## Dark-Light Theme
+
+## Dark Theme
+
+## Light Theme
