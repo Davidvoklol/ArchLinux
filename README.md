@@ -52,4 +52,4 @@ sudo fc-cache -fv
 stow -t ~/.config -S dotfiles --verbose=1
 ```
 
-## [Themes](Themes.md)
+## [Themes](./sources/Themes.md)
