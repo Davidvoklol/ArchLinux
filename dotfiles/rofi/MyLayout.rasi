@@ -123,12 +123,11 @@ States
             handle
 */ 
 
-* {
-    fg: #0F171D;
-    bg: #273340;
-    selected: #0BEF75;
-    active: #1a63bd;
+// @theme "Dark-Theme.rasi"
+// @theme "Light-Theme.rasi"
+@theme "Dark-Light-Theme.rasi"
 
+* {
     font: "Cascadia Code 20";
     text-color: @fg;
     background-color: @bg;
