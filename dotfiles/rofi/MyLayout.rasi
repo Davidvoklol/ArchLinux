@@ -123,9 +123,9 @@ States
             handle
 */ 
 
-// @theme "Dark-Theme.rasi"
-// @theme "Light-Theme.rasi"
-@theme "Dark-Light-Theme.rasi"
+// @theme "Themes/Dark-Theme.rasi"
+// @theme "Themes/Light-Theme.rasi"
+@theme "Themes/Dark-Light-Theme.rasi"
 
 * {
     font: "Cascadia Code 20";
