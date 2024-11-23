@@ -2,9 +2,6 @@
 
 ## Programms
 
-> [!TIP]
-> First look after the programms in your distro's [package manager](https://en.wikipedia.org/wiki/List_of_software_package_management_systems#Linux) so you don't have to build them all.
-
 #### Aesthetics
 - [Hyprland](https://hyprland.org/) - Compositor
 - [Swww](https://github.com/GhostNaN/mpvpaper) - Background manager
@@ -17,6 +14,9 @@
 - [Neovim](https://github.com/neovim/neovim) - Code editor
 - [Firefox](https://support.mozilla.org/hu/kb/Firefox%20telep%C3%ADt%C3%A9se%20Linuxra#w_install-firefox-deb-package-for-debian-based-distributions) - Browser
 
+# Install on arch
+bash```
+```
 
 #### Functionality
 - ([Yay](https://github.com/Jguer/yay) - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository))
@@ -31,6 +31,10 @@
 - [Wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Clipboard manager
 - [acpi](https://pkgs.org/download/acpi) - Battery Status
 
+# Install on arch
+bash```
+```
+
 ## Setting up files
 
 - Fonts and backgrounds
@@ -43,27 +47,22 @@ sudo fc-cache -fv
 ```
 
 #### With GNU Stow
-> [!TIP]
-> *GNU Stow simplifies dotfile management by creating symbolic links from a central repository to their appropriate locations, ensuring a clean, modular, and easily version-controlled setup.*
 
-- Install [stow](https://github.com/aspiers/stow) if you haven't already
-- Run this command from the [Wayland-dotfiles](./) folder
+- Run this command from the `Wayland-dotfiles/` folder
 ```bash
 stow -t ~/.config -S dotfiles --verbose=1
 ```
 
-## Themes
+## Colors
 
-![Background](./backgrounds/astronaut.jpg)
-
-- `#0F161E` ![#0F161E](https://placehold.co/50x20/0F161E/0F161E.png)
-- `#F92633` ![F92633](https://placehold.co/50x20/F92633/F92633.png)
-- `#0BEF75` ![#0BEF75](https://placehold.co/50x20/0BEF75/0BEF75.png)
-- `#FBE60B` ![#FBE60B](https://placehold.co/50x20/FBE60B/FBE60B.png)
-- `#32568C` ![#32568C](https://placehold.co/50x20/32568C/32568C.png)
-- `#F70BE0` ![#F70BE0](https://placehold.co/50x20/F70BE0/F70BE0.png)
-- `#52e0ad` ![#52e0ad](https://placehold.co/50x20/52e0ad/52e0ad.png)
-- `#FFFBE8` ![#FFFBE8](https://placehold.co/50x20/FFFBE8/FFFBE8.png)
-- `#273341` ![#273341](https://placehold.co/50x20/273341/273341.png)
-- `#939894` ![#939894](https://placehold.co/50x20/939894/939894.png)
+- `#0F161E` ![#0F161E](https://placehold.co/100x20/0F161E/0F161E.png)
+- `#F92633` ![F92633](https://placehold.co/100x20/F92633/F92633.png)
+- `#0BEF75` ![#0BEF75](https://placehold.co/100x20/0BEF75/0BEF75.png)
+- `#FBE60B` ![#FBE60B](https://placehold.co/100x20/FBE60B/FBE60B.png)
+- `#32568C` ![#32568C](https://placehold.co/100x20/32568C/32568C.png)
+- `#F70BE0` ![#F70BE0](https://placehold.co/100x20/F70BE0/F70BE0.png)
+- `#52e0ad` ![#52e0ad](https://placehold.co/100x20/52e0ad/52e0ad.png)
+- `#FFFBE8` ![#FFFBE8](https://placehold.co/100x20/FFFBE8/FFFBE8.png)
+- `#273341` ![#273341](https://placehold.co/100x20/273341/273341.png)
+- `#939894` ![#939894](https://placehold.co/100x20/939894/939894.png)
 
