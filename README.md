@@ -41,8 +41,8 @@
 ```bash
 mkdir -p ~/.fonts
 mkdir -p ~/.config/backgrounds
-cp fonts/* ~/.fonts/
-cp backgrounds/* ~/.config/backgrounds/
+cp files/fonts/* ~/.fonts/
+cp files/backgrounds/* ~/.config/backgrounds/
 sudo fc-cache -fv
 ```
 
@@ -50,7 +50,7 @@ sudo fc-cache -fv
 
 - Run this command from the `Wayland-dotfiles/` folder
 ```bash
-stow -t ~/.config -S dotfiles --verbose=1
+stow -t ~/.config -S files/dotfiles --verbose=1
 ```
 
 ## Colors
