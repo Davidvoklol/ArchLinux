@@ -123,12 +123,10 @@ States
             handle
 */ 
 
-// @theme "Themes/Dark-Theme.rasi"
-// @theme "Themes/Light-Theme.rasi"
-@theme "Themes/Dark-Light-Theme.rasi"
+@theme "Theme.rasi"
 
 * {
-    font: "Cascadia Code 20";
+    font: "monospace";
     text-color: @fg;
     background-color: @bg;
 }
@@ -162,7 +160,7 @@ textbox-icon, entry {
     padding: 0.25em 0.5em;
 }
 entry {
-    font: "Cascadia Code italic bold";
+    font: "monospace";
     border-radius: 5px;
     padding: 0.25em 0.75em;
     placeholder: "search";
