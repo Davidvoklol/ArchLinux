@@ -172,7 +172,6 @@ textbox-icon {
     border-radius: 5px 100% 100% 5px;
 }
 
-
 sidebar {
     expand: true;
 }
