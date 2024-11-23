@@ -14,7 +14,7 @@
 - [Neovim](https://github.com/neovim/neovim) - Code editor
 - [Firefox](https://support.mozilla.org/hu/kb/Firefox%20telep%C3%ADt%C3%A9se%20Linuxra#w_install-firefox-deb-package-for-debian-based-distributions) - Browser
 
-###### Install on arch
+##### Install on arch
 ```bash
 ```
 
@@ -31,7 +31,7 @@
 - [Wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Clipboard manager
 - [acpi](https://pkgs.org/download/acpi) - Battery Status
 
-###### Install on arch
+##### Install on arch
 ```bash
 ```
 
