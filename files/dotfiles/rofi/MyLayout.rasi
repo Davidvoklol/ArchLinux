@@ -143,7 +143,7 @@ window {
 inputbar {
     background-color: inherit;
     spacing: 0.5em;
-    children: [input, sidebar];
+    children: [input];
 }
 
 input {
@@ -151,7 +151,7 @@ input {
     orientation: horizontal;
     spacing: 3px;
     padding: 0px 0px 3px;
-    children: [entry, textbox-icon];
+    children: [entry];
 }
 textbox-icon, entry {
     color: @bg;
