@@ -136,6 +136,7 @@ window {
     height: 60%;
     padding: 3px;
     spacing: 0;
+    border-radius: 2px;
     children: [inputbar, listview];
 }
 
@@ -161,7 +162,7 @@ textbox-icon, entry {
 }
 entry {
     font: "monospace";
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 0.25em 0.75em;
     placeholder: "search";
 }
@@ -195,6 +196,7 @@ listview {
     columns: 5;
     fixed-columns: true;
     lines: 5;
+    border-radius: 2px;
     color: @bg;
     background-color: @fg;
 }
