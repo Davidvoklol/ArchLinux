@@ -14,10 +14,6 @@
 - [Neovim](https://github.com/neovim/neovim) - Code editor
 - [Firefox](https://support.mozilla.org/hu/kb/Firefox%20telep%C3%ADt%C3%A9se%20Linuxra#w_install-firefox-deb-package-for-debian-based-distributions) - Browser
 
-##### Install on arch
-```bash
-```
-
 #### Functionality
 - ([Yay](https://github.com/Jguer/yay) - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository))
 - [OpenSSH](https://github.com/openssh/openssh-portable) - Secure remote access
@@ -31,9 +27,7 @@
 - [Wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Clipboard manager
 - [acpi](https://pkgs.org/download/acpi) - Battery Status
 
-##### Install on arch
-```bash
-```
+## [Installing Files](./Install.md)
 
 ## Setting up files
 

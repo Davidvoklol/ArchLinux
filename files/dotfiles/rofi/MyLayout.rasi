@@ -126,7 +126,7 @@ States
 @theme "Theme.rasi"
 
 * {
-    font: "monospace";
+    font: "JetBrainsMono Nerd Font Mono 20";
     text-color: @fg;
     background-color: @bg;
 }
