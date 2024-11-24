@@ -4,6 +4,9 @@
 ```bash
 sudo pacman -S --needed git github-cli openssh stow playerctl brightnessctl hyprpicker wl-clipboard acpi zsh
 
+# audio
+sudo pacman -S pipewire pipewire-pulse pipewire-jack wireplumber
+
 # build yay(AUR helper)
 sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git
