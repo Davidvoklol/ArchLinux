@@ -26,6 +26,9 @@
 - [Hyprpicker](https://github.com/hyprwm/hyprpicker) - Color picker
 - [Wl-clipboard](https://github.com/bugaevc/wl-clipboard) - Clipboard manager
 - [acpi](https://pkgs.org/download/acpi) - Battery Status
+- [polkit-kde-agent](https://github.com/KDE/polkit-kde-agent-1/) - Authentication agent 
+- [Mako](https://github.com/emersion/mako) - A notification daemon
+- [bluetoothctl](https://wiki.archlinux.org/title/Bluetooth)
 
 ## [Installing Files](./Install.md)
 
