@@ -2,7 +2,10 @@
 
 ## Functionalitys
 ```bash
-sudo pacman -S --needed git github-cli openssh stow pipewire pipewire-pulse wireplumber playerctl brightnessctl hyprpicker wl-clipboard acpi
+sudo pacman -S --needed git github-cli openssh stow playerctl brightnessctl hyprpicker wl-clipboard acpi
+
+# audio
+sudo pacman -S pipewire pipewire-pulse pipewire-alsa pipewire-jack
 
 # build yay(AUR helper)
 sudo pacman -S --needed git base-devel
