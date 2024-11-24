@@ -12,7 +12,7 @@
 - [Hyprlock](https://github.com/hyprwm/hyprlock) - Screen locker
 - [Eww](https://github.com/elkowar/eww?tab=readme-ov-file) - Widgets
 - [Neovim](https://github.com/neovim/neovim) - Code editor
-- [Firefox](https://support.mozilla.org/hu/kb/Firefox%20telep%C3%ADt%C3%A9se%20Linuxra#w_install-firefox-deb-package-for-debian-based-distributions) - Browser
+- [Chrome](https://www.google.com/chrome/?brand=FHFK&ds_kid=43700078760035676&gad_source=1&gclid=Cj0KCQiAuou6BhDhARIsAIfgrn5arVJiSJFJjHgIOX8GFqG4ox2z7cb-GxT9lPCC4YlKvheOTRZha2QaAssBEALw_wcB&gclsrc=aw.ds) - Browser
 
 #### Functionality
 - ([Yay](https://github.com/Jguer/yay) - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository))
@@ -50,7 +50,7 @@ stow -t ~/.config -S files/dotfiles --verbose=1
 ## Colors
 
 - `#0F161E` ![#0F161E](https://placehold.co/100x20/0F161E/0F161E.png)
-- `#F92633` ![F92633](https://placehold.co/100x20/F92633/F92633.png)
+- `#F92633` ![#F92633](https://placehold.co/100x20/F92633/F92633.png)
 - `#0BEF75` ![#0BEF75](https://placehold.co/100x20/0BEF75/0BEF75.png)
 - `#FBE60B` ![#FBE60B](https://placehold.co/100x20/FBE60B/FBE60B.png)
 - `#32568C` ![#32568C](https://placehold.co/100x20/32568C/32568C.png)
@@ -59,4 +59,3 @@ stow -t ~/.config -S files/dotfiles --verbose=1
 - `#FFFBE8` ![#FFFBE8](https://placehold.co/100x20/FFFBE8/FFFBE8.png)
 - `#273341` ![#273341](https://placehold.co/100x20/273341/273341.png)
 - `#939894` ![#939894](https://placehold.co/100x20/939894/939894.png)
-
