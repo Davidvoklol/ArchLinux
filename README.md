@@ -15,7 +15,7 @@
 - [Chrome](https://www.google.com/chrome/?brand=FHFK&ds_kid=43700078760035676&gad_source=1&gclid=Cj0KCQiAuou6BhDhARIsAIfgrn5arVJiSJFJjHgIOX8GFqG4ox2z7cb-GxT9lPCC4YlKvheOTRZha2QaAssBEALw_wcB&gclsrc=aw.ds) - Browser
 
 #### Functionality
-- ([Yay](https://github.com/Jguer/yay) - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository))
+- ([Yay](https://github.com/Jguer/yay) - Arch [AUR](https://wiki.archlinux.org/title/Arch_User_Repository)) helper
 - [OpenSSH](https://github.com/openssh/openssh-portable) - Secure remote access
 - [Git](https://git-scm.com/downloads/linux) - Code version control system
 - [Github-CLI](https://github.com/cli/cli#installation) - GitHub Terminal Interface
@@ -28,7 +28,7 @@
 - [acpi](https://pkgs.org/download/acpi) - Battery Status
 - [polkit-kde-agent](https://github.com/KDE/polkit-kde-agent-1/) - Authentication agent 
 - [Mako](https://github.com/emersion/mako) - A notification daemon
-- [bluetoothctl](https://wiki.archlinux.org/title/Bluetooth)
+- [bluetoothctl](https://wiki.archlinux.org/title/Bluetooth) - Bluetooth utility
 
 ## [Installing Files](./Install.md)
 
@@ -47,7 +47,7 @@ sudo fc-cache -fv
 
 - Run this command from the `Wayland-dotfiles/` folder
 ```bash
-stow -t ~/.config -S files/dotfiles --verbose=1
+stow -t ~/.config -d files -S dotfiles --verbose=1
 ```
 
 ## Colors
