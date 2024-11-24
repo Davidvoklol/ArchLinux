@@ -56,6 +56,4 @@ stow -t ~/.config -S files/dotfiles --verbose=1
 - `#32568C` ![#32568C](https://placehold.co/100x20/32568C/32568C.png)
 - `#F70BE0` ![#F70BE0](https://placehold.co/100x20/F70BE0/F70BE0.png)
 - `#52e0ad` ![#52e0ad](https://placehold.co/100x20/52e0ad/52e0ad.png)
-- `#FFFBE8` ![#FFFBE8](https://placehold.co/100x20/FFFBE8/FFFBE8.png)
-- `#273341` ![#273341](https://placehold.co/100x20/273341/273341.png)
-- `#939894` ![#939894](https://placehold.co/100x20/939894/939894.png)
+- `#E6E3C6` ![#E6E3C6](https://placehold.co/100x20/E6E3C6/E6E3C6.png)
