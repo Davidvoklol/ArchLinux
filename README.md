@@ -35,7 +35,7 @@
 ```bash
 mkdir -p ~/.fonts
 mkdir -p ~/.config/backgrounds
-cp files/fonts/* ~/.fonts/
+cp -r files/fonts/* ~/.fonts/
 cp files/backgrounds/* ~/.config/backgrounds/
 sudo fc-cache -fv
 ```
