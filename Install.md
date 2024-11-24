@@ -2,10 +2,7 @@
 
 ## Functionalitys
 ```bash
-sudo pacman -S --needed git github-cli openssh stow playerctl brightnessctl hyprpicker wl-clipboard acpi
-
-# audio
-sudo pacman -S pipewire pipewire-pulse pipewire-alsa pipewire-jack
+sudo pacman -S --needed git github-cli openssh stow playerctl brightnessctl hyprpicker wl-clipboard acpi zsh
 
 # build yay(AUR helper)
 sudo pacman -S --needed git base-devel
@@ -34,8 +31,4 @@ sudo cp eww /bin/eww
 sudo systemctl enable sddm
 sudo systemctl start --now sddm
 # set the session from Hyprland(systemd session) to Hyprland
-
-systemctl --user enable --now pipewire.service
-systemctl --user enable --now wireplumber.service
-systemctl --user enable --now pipewire-pulse.service
 ```
