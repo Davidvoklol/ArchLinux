@@ -199,8 +199,8 @@ stow -t ~/.config -d files -S dotfiles --verbose=1
 ```bash
 # Enable services
 sudo chsh -s /bin/zsh
-sudo systemctl enable opnessh
 sudo systemctl enable sddm
+# Set session from hyprland(systemd session) to hprland
 sudo systemctl enable NetworkManager
 ```
 
