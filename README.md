@@ -64,7 +64,7 @@
     </tr>
     <tr>
       <td><a href="https://github.com/neovim/neovim">Neovim</a></td>
-      <td>Code editor</td>
+      <td>Text editor</td>
       <td><code>neovim</code></td>
       <td>pacman</td>
     </tr>
