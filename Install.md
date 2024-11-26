@@ -3,13 +3,13 @@
 
 # Every other package
 ## pacman
-`hyprland swww kitty rofi thunar sddm hyprlock cargo gtk3 gtk-layer-shell pango gdk-pixbuf2 libdbusmenu-gtk3 cairo glib2 gcc-libs glibc neovim git github-cli openssh stow pipewire pipewire-pulse pipewire-jack wireplumber playerctl brightnessctl hyprpicker wl-clipboard acpi zsh polkit polkit-kde-agent mako bluez bluez-utils`
+`hyprland swww kitty rofi thunar sddm hyprlock cargo gtk3 gtk-layer-shell pango gdk-pixbuf2 libdbusmenu-gtk3 cairo glib2 gcc-libs glibc neovim git github-cli openssh stow pipewire pipewire-pulse pipewire-jack wireplumber playerctl brightnessctl hyprpicker wl-clipboard acpi zsh polkit polkit-kde-agent mako bluez bluez-utils tree`
 ## yay
 `google-chrome`
 
 ## Pacstrap during linux install
 ```bash
-pacstrap -K /mnt base base-devel linux linux-firmware sof-firmware grub efibootmgr networkmanager hyprland swww kitty rofi thunar sddm hyprlock cargo gtk3 gtk-layer-shell pango gdk-pixbuf2 libdbusmenu-gtk3 cairo glib2 gcc-libs glibc neovim git github-cli openssh stow pipewire pipewire-pulse pipewire-jack wireplumber playerctl brightnessctl hyprpicker wl-clipboard acpi zsh polkit polkit-kde-agent mako bluez bluez-utils
+pacstrap -K /mnt base base-devel linux linux-firmware sof-firmware grub efibootmgr networkmanager hyprland swww kitty rofi thunar sddm hyprlock cargo gtk3 gtk-layer-shell pango gdk-pixbuf2 libdbusmenu-gtk3 cairo glib2 gcc-libs glibc neovim git github-cli openssh stow pipewire pipewire-pulse pipewire-jack wireplumber playerctl brightnessctl hyprpicker wl-clipboard acpi zsh polkit polkit-kde-agent mako bluez bluez-utils tree
 ```
 
 ## Build yay

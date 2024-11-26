@@ -173,7 +173,13 @@
       <td><code>networkmanager</code></td>
       <td>pacman</td>
     </tr>
-  </tbody>
+    </tr>
+      <td><a href="https://gitlab.com/OldManProgrammer/unix-tree">Tree</a></td>
+      <td>A directory listing program</td>
+      <td><code>tree</code></td>
+      <td>pacman</td>
+    </tr>
+</tbody>
 </table>
 
 ## [Installing Files](./Install.md)
