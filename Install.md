@@ -2,7 +2,7 @@
 
 ## Functionalitys
 ```bash
-sudo pacman -S --needed git github-cli openssh stow playerctl brightnessctl hyprpicker wl-clipboard acpi zsh 
+sudo pacman -S --needed git github-cli openssh stow playerctl brightnessctl hyprpicker wl-clipboard acpi zsh polkit polkit-kde-agent mako bluez bluez-utils
 
 # audio
 sudo pacman -S pipewire pipewire-pulse pipewire-jack wireplumber
