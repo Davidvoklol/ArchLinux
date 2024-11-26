@@ -91,7 +91,7 @@
     </tr>
     <tr>
       <td><a href="https://github.com/openssh/openssh-portable">OpenSSH</a></td>
-      <td>Secure remote access</td>
+      <td>Secure remote shell</td>
       <td><code>openssh</code></td>
       <td>pacman</td>
     </tr>
