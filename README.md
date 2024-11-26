@@ -53,6 +53,7 @@ stow -t ~/.config -d files -S dotfiles --verbose=1
 ## Colors
 
 - `#0F161E` ![#0F161E](https://placehold.co/100x20/0F161E/0F161E.png)
+- `#273340` ![#273340](https://placehold.co/100x20/273340/273340.png)
 - `#F92633` ![#F92633](https://placehold.co/100x20/F92633/F92633.png)
 - `#0BEF75` ![#0BEF75](https://placehold.co/100x20/0BEF75/0BEF75.png)
 - `#FBE60B` ![#FBE60B](https://placehold.co/100x20/FBE60B/FBE60B.png)
@@ -60,3 +61,5 @@ stow -t ~/.config -d files -S dotfiles --verbose=1
 - `#F70BE0` ![#F70BE0](https://placehold.co/100x20/F70BE0/F70BE0.png)
 - `#52e0ad` ![#52e0ad](https://placehold.co/100x20/52e0ad/52e0ad.png)
 - `#E6E3C6` ![#E6E3C6](https://placehold.co/100x20/E6E3C6/E6E3C6.png)
+
+- [color palette](https://coolors.co/0f161e-273340-e6e3c6-32568c-20dfaf-1dc973-dada0b-fda24a-c322c3-c63939)

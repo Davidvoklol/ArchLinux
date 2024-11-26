@@ -2,7 +2,7 @@
 
 ## Functionalitys
 ```bash
-sudo pacman -S --needed git github-cli openssh stow playerctl brightnessctl hyprpicker wl-clipboard acpi zsh
+sudo pacman -S --needed git github-cli openssh stow playerctl brightnessctl hyprpicker wl-clipboard acpi zsh 
 
 # audio
 sudo pacman -S pipewire pipewire-pulse pipewire-jack wireplumber
@@ -31,7 +31,7 @@ sudo cp eww /bin/eww
 
 ## Enable services
 ```bash
-sudo systemctl enable sddm
-sudo systemctl start --now sddm
-# set the session from Hyprland(systemd session) to Hyprland
+sudo systemctl enable sddm # set the session from Hyprland(systemd session) to Hyprland
+chsh -s /bin/zsh # set zshell to default shell
+swww img ~/.config/backgrounds/astronaut.jpg # set background
 ```
