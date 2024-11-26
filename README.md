@@ -12,7 +12,7 @@
   </thead>
   <tbody>
     <tr>
-        <td colspan=4><center><h3>Aesthetics<h3></center></td>
+        <td colspan=4><h3 style="text-align:center;">Aesthetics<h3></td>
     </tr>
     <tr>
       <td><a href="https://hyprland.org/">Hyprland</a></td>
@@ -81,7 +81,7 @@
       <td>pacman</td>
     </tr>
     <tr>
-        <td colspan=4><center><h3>Functionality<h3></center></td>
+        <td colspan=4><h3 style="text-align:center;">Functionality<h3></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Jguer/yay">Yay</a></td>
