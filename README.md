@@ -208,6 +208,7 @@ sudo chsh -s /bin/zsh
 sudo systemctl enable sddm
 # Set session from hyprland(systemd session) to hprland
 sudo systemctl enable NetworkManager
+systemctl --user status mako
 ```
 
 ## Colors
