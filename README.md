@@ -150,7 +150,7 @@
       <td>pacman</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/KDE/polkit-kde-agent-1/">polkit-kde-agent</a></td>
+      <td><a href="https://wiki.archlinux.org/title/Polkit">polkit-kde-agent</a></td>
       <td>Authentication agent</td>
       <td><code>polkit polkit-kde-agent</code></td>
       <td>pacman</td>
