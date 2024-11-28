@@ -182,8 +182,6 @@
 </tbody>
 </table>
 
-## [Installing Files](./Install.md)
-
 ## Setting up Files
 
 ```bash
@@ -197,8 +195,7 @@ swww img ~/.config/backgrounds/astronaut.jpg
 ```
 
 ```bash
-# Dotfiles
-# run from this folder
+# From ArchLinux/
 stow -t ~/.config -d files -S dotfiles --verbose=1
 ```
 
