@@ -154,11 +154,18 @@ configuration {
     
 
 configuration {
-    combi-modes: [ drun, run, ssh ];
-    display-drun: "apps";
-    display-window: "windows";
-    display-run: "< / >";
-    display-ssh: "ssh";
+    modes: [window, drun, run, ssh, keys, combi, filebrowser];
+    
+    display-drun: "Apps:";
+    display-window: "Windows:";
+    display-run: "Commands:";
+    display-ssh: "Ssh:";
+    display-keys: "Shortcuts:";
+    display-combi: "Universal:";
+    display-filebrowser: "Files:";
+    
+    drun-match-fields: "name";
+
     show-icons: false;
     icon-theme: "Papirus-Dark";
 }

@@ -142,11 +142,18 @@ inputbar {
     background-color: @ph;
     text-color: @bg;
     padding: 0.5em;
-    children: [entry];
+    spacing: 1em;
+    children: [prompt, entry];
+}
+
+prompt {
+    font: "JetBrainsMono Nerd Font Mono extra-bold 20";
+    background-color: inherit;
+    text-color: inherit;
 }
 
 entry {
-    font: "JetBrainsMono Nerd Font Mono extra-bold 20";
+    font: "JetBrainsMono Nerd Font Mono italic 20";
     background-color: inherit;
     text-color: inherit;
     placeholder-color: inherit;
@@ -174,7 +181,15 @@ element-text {
 }
 
 element-text selected {
-    font: "JetBrainsMono Nerd Font Mono extra-bold 20";
-    background-color: @highlight3;
-    text-color: @bg;
+    text-color: @highlight2;
+}
+
+message {
+    border: 2px;
+    border-color: @ph;
+    padding: 0.5em;
+}
+
+textbox {
+    text-color: @ph;
 }
