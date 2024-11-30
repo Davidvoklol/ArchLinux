@@ -155,13 +155,21 @@ entry {
 
 listview {
     text-color: @blue;
-    padding: 0.5em 1em;
+    scrollbar: true;
+}
+
+scrollbar {
+    background-color: @bg;
+    handle-width: 15px;
+    handle-color: @ph;
+    border-color: @bg;
 }
 
 element {
 }
 
 element-text {
+    padding: 0.1em 0.5em;
     text-color: @ph;
 }
 
