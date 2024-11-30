@@ -24,13 +24,14 @@
 
     font: "JetBrainsMono Nerd Font Mono 20";
     text-color: @fg;
-    background-color: @bg;
+    background-color: transparent;
 }
 
 window {
     width: 60%;
     height: 60%;
     border-radius: 2px;
+    background-color: @bg;
     children: [inputbar, listview, message];
 }
 

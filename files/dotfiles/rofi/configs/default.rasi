@@ -17,4 +17,4 @@ configuration {
     icon-theme: "Papirus-Dark";
 }
 
-@theme "themes/default.rasi"
+@theme "menu.rasi"
