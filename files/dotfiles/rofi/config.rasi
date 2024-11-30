@@ -159,7 +159,7 @@ configuration {
     display-window: "windows";
     display-run: "< / >";
     display-ssh: "ssh";
-    show-icons: true;
+    show-icons: false;
     icon-theme: "Papirus-Dark";
 }
 

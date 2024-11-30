@@ -134,93 +134,25 @@ States
 window {
     width: 60%;
     height: 60%;
-    padding: 3px;
-    spacing: 0;
     border-radius: 2px;
-    children: [inputbar, listview];
+    children: [inputbar, listview, message];
 }
-
 
 inputbar {
-    background-color: inherit;
-    spacing: 0.5em;
-    children: [input];
-}
-
-input {
-    expand: true;
-    orientation: horizontal;
-    spacing: 3px;
-    padding: 0px 0px 3px;
+    background-color: @ph;
+    text-color: @fg;
+    padding: 0.5em;
     children: [entry];
 }
-textbox-icon, entry {
-    color: @bg;
-    background-color: @fg;
-    vertical-align: 0.5;
-    padding: 0.25em 0.5em;
-}
+
 entry {
-    font: "monospace";
-    border-radius: 2px;
-    padding: 0.25em 0.75em;
-    placeholder: "search";
+    font: "JetBrainsMono Nerd Font Mono extra-bold 25";
+    background-color: inherit;
+    text-color: inherit;
+    placeholder-color: @bg;
+    placeholder: "Filter";
 }
-textbox-icon {
-    expand: false;
-    content: "?";
-    vertical-align: 0.5;
-    border-radius: 5px 100% 100% 5px;
-}
-
-sidebar {
-    expand: true;
-}
-button {
-    expand: true;
-    padding: 0 0.5em;
-    border-radius: 10px 10px 0px 0px;
-    background-color: @bg;
-    color: @fg;
-}
-button selected {
-    color: @bg;
-    background-color: @fg;
-}
-
 
 listview {
     padding: 0.5em 1em;
-    flow: horizontal;
-    spacing: 0.5em;
-    columns: 5;
-    fixed-columns: true;
-    lines: 5;
-    border-radius: 2px;
-    color: @bg;
-    background-color: @fg;
-}
-
-element, element-text, element-icon {
-    color: inherit;
-    background-color: inherit;
-}
-element {
-    expand: false;
-    orientation: vertical;
-    border-radius: 10px;
-    padding: 0.1em 0.5em;
-    children: [element-icon, element-text];
-}
-element selected {
-    color: @fg;
-    background-color: @bg;
-}
-element-text {
-    expand: true;
-    horizontal-align: 0.5;
-    vertical-align: 0.5;
-}
-element-icon {
-    size: 2em;
 }
