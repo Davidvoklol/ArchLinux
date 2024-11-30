@@ -1,0 +1,88 @@
+* {
+    black: #121A21;
+    gray: #364C63;
+    red: #D92626;
+    green: #26D980;
+    yellow: #D9D926;
+    blue: #406ABF;
+    magenta: #BF40BF;
+    cyan: #26D9BB;
+    white: #E0DAB8;
+
+    fg: @white;
+    bg: @black;
+    ph: @gray;
+    success: @green;
+    warning: @yellow;
+    alert: @red;
+    highlight1: @magenta;
+    highlight2: @cyan;
+    highlight3: @blue;
+
+    font: "JetBrainsMono Nerd Font Mono 20";
+    text-color: @fg;
+    background-color: @bg;
+}
+
+window {
+    width: 60%;
+    height: 60%;
+    border-radius: 2px;
+    children: [inputbar, listview, message];
+}
+
+inputbar {
+    background-color: @ph;
+    text-color: @bg;
+    padding: 0.5em;
+    spacing: 1em;
+    children: [prompt, entry];
+}
+
+prompt {
+    font: "JetBrainsMono Nerd Font Mono extra-bold 20";
+    background-color: inherit;
+    text-color: inherit;
+}
+
+entry {
+    font: "JetBrainsMono Nerd Font Mono italic 20";
+    background-color: inherit;
+    text-color: inherit;
+    placeholder-color: inherit;
+    placeholder: "Filter";
+}
+
+listview {
+    text-color: @blue;
+    scrollbar: true;
+}
+
+scrollbar {
+    background-color: @bg;
+    handle-width: 15px;
+    handle-color: @ph;
+    border-color: @bg;
+}
+
+element {
+}
+
+element-text {
+    padding: 0.1em 0.5em;
+    text-color: @ph;
+}
+
+element-text selected {
+    text-color: @highlight2;
+}
+
+message {
+    border: 2px;
+    border-color: @ph;
+    padding: 0.5em;
+}
+
+textbox {
+    text-color: @ph;
+}

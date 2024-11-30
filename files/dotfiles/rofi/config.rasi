@@ -170,4 +170,4 @@ configuration {
     icon-theme: "Papirus-Dark";
 }
 
-@theme "MyLayout.rasi"
+@theme "themes/default.rasi"
