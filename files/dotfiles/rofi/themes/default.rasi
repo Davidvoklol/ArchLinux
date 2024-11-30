@@ -1,3 +1,6 @@
+// Base widgets: https://davatorium.github.io/rofi/current/rofi-theme.5/#base-widgets
+// Window properties: https://davatorium.github.io/rofi/current/rofi-theme.5/#widget-properties
+
 * {
     black: #121A21;
     gray: #364C63;
@@ -31,6 +34,8 @@ window {
     children: [inputbar, listview, message];
 }
 
+
+/*---HEADER---*/
 inputbar {
     background-color: @ph;
     text-color: @bg;
@@ -53,6 +58,8 @@ entry {
     placeholder: "Filter";
 }
 
+
+/*---BODY---*/
 listview {
     text-color: @blue;
     scrollbar: true;
@@ -77,6 +84,7 @@ element-text selected {
     text-color: @highlight2;
 }
 
+/*---FOOTER---*/
 message {
     border: 2px;
     border-color: @ph;
