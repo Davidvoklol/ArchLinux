@@ -140,19 +140,33 @@ window {
 
 inputbar {
     background-color: @ph;
-    text-color: @fg;
+    text-color: @bg;
     padding: 0.5em;
     children: [entry];
 }
 
 entry {
-    font: "JetBrainsMono Nerd Font Mono extra-bold 25";
+    font: "JetBrainsMono Nerd Font Mono extra-bold 20";
     background-color: inherit;
     text-color: inherit;
-    placeholder-color: @bg;
+    placeholder-color: inherit;
     placeholder: "Filter";
 }
 
 listview {
+    text-color: @blue;
     padding: 0.5em 1em;
+}
+
+element {
+}
+
+element-text {
+    text-color: @ph;
+}
+
+element-text selected {
+    font: "JetBrainsMono Nerd Font Mono extra-bold 20";
+    background-color: @highlight3;
+    text-color: @bg;
 }
