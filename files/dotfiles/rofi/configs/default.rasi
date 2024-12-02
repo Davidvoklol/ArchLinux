@@ -1,20 +1,13 @@
 // HELP: rofi -dump-config
 
 configuration {
-    modes: [window, drun, run, ssh, keys, combi, filebrowser];
+    modes: [drun, keys, filebrowser];
     
-    display-drun: "Apps:";
-    display-window: "Windows:";
-    display-run: "Commands:";
-    display-ssh: "Ssh:";
+    display-drun: "Applications:";
     display-keys: "Shortcuts:";
-    display-combi: "Universal:";
     display-filebrowser: "Files:";
-    
-    drun-match-fields: "name";
 
-    show-icons: false;
-    icon-theme: "Papirus-Dark";
+    drun-display-format: "{name}";
 }
 
-@theme "menu.rasi"
+@theme "default.rasi"
