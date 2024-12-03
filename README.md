@@ -137,10 +137,11 @@ cp backgrounds/* ~/.config/backgrounds/
 sudo fc-cache -fv
 ```
 
->kaka
+>Set image with swww
 >```bash
->sudo pacman -Syyu
+>swww img .config/backgrounds/astronaut.jpg
 >```
+
 
 ```bash
 # Stow from ArchLinux/
