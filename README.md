@@ -145,7 +145,7 @@ sudo fc-cache -fv
 
 ```bash
 # Stow from ArchLinux/
-stow -t ~/.config -d files -S dotfiles --verbose=1
+stow -t ~/.config -S dotfiles --verbose=1
 ```
 
 ```bash
@@ -154,5 +154,5 @@ sudo chsh -s /bin/zsh
 sudo systemctl enable sddm
 # Set session from hyprland(systemd session) to hprland
 sudo systemctl enable NetworkManager
-systemctl --user status mako
+systemctl --user enable mako
 ```
