@@ -156,3 +156,50 @@ sudo systemctl enable sddm
 sudo systemctl enable NetworkManager
 systemctl --user enable mako
 ```
+
+## Colors
+
+#### black
+#121A21
+#243342
+#364C63
+
+#### white
+#E0DAB8
+#F0ECDB
+#FFFFFF
+
+#### green
+#26D980
+#52E099
+#A8F0CC
+
+#### cyan
+#26D9BB
+#52E0C9
+#A8F0E4
+
+#### red
+#D92626
+#E05252
+#F0A8A8
+
+#### yellow
+#D9D926
+#E0E052
+#F0F0A8
+
+#### magenta
+#BF40BF
+#CC66CC
+#E5B3E5
+
+#### ornage
+#EB7E47
+#F09E75
+#F5BEA3
+
+#### blue
+#406ABF
+#6688CC
+#B2C3E5
