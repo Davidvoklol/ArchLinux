@@ -1,6 +1,11 @@
 # Arch system
 
-## System Info
+## Download the repo
+``` bash
+git clone https://github.com/Davidvoklol/ArchLinux.git
+```
+
+## Software Info
 <table border="1">
   <thead>
     <tr>
@@ -131,15 +136,15 @@
 ```bash
 # Fonts and backgrounds
 mkdir -p ~/.fonts
-mkdir -p ~/.config/backgrounds
+mkdir -p ~/backgrounds
 cp -r fonts/* ~/.fonts/
-cp backgrounds/* ~/.config/backgrounds/
+cp backgrounds/* ~/backgrounds/
 sudo fc-cache -fv
 ```
 
->Set image with swww
+>Set background image with swww
 >```bash
->swww img .config/backgrounds/astronaut.jpg
+>swww img ~/.config/astronaut.jpg
 >```
 
 
@@ -152,7 +157,7 @@ stow -t ~/.config -S dotfiles --verbose=1
 # Enable services
 sudo chsh -s /bin/zsh
 sudo systemctl enable sddm
-# Set session from hyprland(systemd session) to hprland
+# !!! You may need the change the session from hyprland(systemd session) to hprland
 sudo systemctl enable NetworkManager
 systemctl --user enable mako
 ```
