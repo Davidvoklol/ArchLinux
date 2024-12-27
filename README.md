@@ -10,12 +10,12 @@ git clone https://github.com/Davidvoklol/ArchLinux.git
   <thead>
     <tr>
       <th>Name</th>
-      <th>Functionality</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-        <td colspan=4><h3 style="text-align:center;">Aesthetics<h3></td>
+        <td colspan=4><h3><center>Aesthetics</center><h3></td>
     </tr>
     <tr>
       <td><a href="https://hyprland.org/">Hyprland</a></td>
