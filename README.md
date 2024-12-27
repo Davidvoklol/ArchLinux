@@ -15,7 +15,7 @@ git clone https://github.com/Davidvoklol/ArchLinux.git
   </thead>
   <tbody>
     <tr>
-        <td colspan=4><h3><center>Aesthetics</center><h3></td>
+        <td colspan=4><h3 style="text-align:center;">Aesthetics<h3></td>
     </tr>
     <tr>
       <td><a href="https://hyprland.org/">Hyprland</a></td>
@@ -133,25 +133,26 @@ git clone https://github.com/Davidvoklol/ArchLinux.git
 
 ## Setting up Files
 
-```bash
-# Fonts and backgrounds
-mkdir -p ~/.fonts
-mkdir -p ~/backgrounds
-cp -r fonts/* ~/.fonts/
-cp backgrounds/* ~/backgrounds/
-sudo fc-cache -fv
-```
+>Copy the background and fonts onto the system
+>```bash
+>mkdir -p ~/.fonts
+>mkdir -p ~/backgrounds
+>cp -r fonts/* ~/.fonts/
+>cp backgrounds/* ~/backgrounds/
+>sudo fc-cache -fv
+>```
 
 >Set background image with swww
 >```bash
 >swww img ~/.config/astronaut.jpg
 >```
 
+>Set up the dotfiles
+>>Link the files with stow
+>>```bash
+>>stow -t ~/.config -S dotfiles --verbose=1
+>>```
 
-```bash
-# Stow from ArchLinux/
-stow -t ~/.config -S dotfiles --verbose=1
-```
 
 ```bash
 # Enable services
