@@ -132,27 +132,31 @@ git clone https://github.com/Davidvoklol/ArchLinux.git
 </table>
 
 ## Setting up Files
+>[!NOTE]
+>
 
->Copy the background and fonts onto the system
->```bash
->mkdir -p ~/.fonts
->mkdir -p ~/backgrounds
->cp -r fonts/* ~/.fonts/
->cp backgrounds/* ~/backgrounds/
->sudo fc-cache -fv
->```
+### Copy Fonts and Background 
+```bash
+mkdir -p ~/.fonts
+mkdir -p ~/backgrounds
+cp -r fonts/* ~/.fonts/
+cp backgrounds/* ~/backgrounds/
+sudo fc-cache -fv
+```
 
->Set background image with swww
->```bash
->swww img ~/.config/astronaut.jpg
->```
+### Link Dotfiles
 
->Set up the dotfiles
->>Link the files with stow
->>```bash
->>stow -t ~/.config -S dotfiles --verbose=1
->>```
+```bash
+stow -t ~/.config -S dotfiles --verbose=1
+```
 
+### Hyprland
+```bash
+sudo pacman -S hyprland
+```
+[other distros](https://wiki.hyprland.org/Getting-Started/Installation/#packages)
+
+### Swww
 
 ```bash
 # Enable services
