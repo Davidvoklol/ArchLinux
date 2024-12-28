@@ -22,7 +22,7 @@ git clone https://github.com/Davidvoklol/ArchLinux.git
       <td>Compositor</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/GhostNaN/mpvpaper">Swww</a></td>
+      <td><a href="https://github.com/LGFae/swww">Swww</a></td>
       <td>Background manager</td>
     </tr>
     <tr>
@@ -132,8 +132,8 @@ git clone https://github.com/Davidvoklol/ArchLinux.git
 </table>
 
 ## Setting up Files
->[!NOTE]
->
+> [!NOTE]
+> this is some important info
 
 ### Copy Fonts and Background 
 ```bash
