@@ -132,10 +132,10 @@ git clone https://github.com/Davidvoklol/ArchLinux.git
 </table>
 
 ## Setting up Files
-> [!NOTE]
-> this is some important info
+> [!IMPORTANT]
+> The commands are for Arch linux
 
-### Copy Fonts and Background 
+### Copy Fonts and Background
 ```bash
 mkdir -p ~/.fonts
 mkdir -p ~/backgrounds
@@ -150,19 +150,34 @@ sudo fc-cache -fv
 stow -t ~/.config -S dotfiles --verbose=1
 ```
 
-### Hyprland
+### Donwload apps
+
+With pacman
 ```bash
-sudo pacman -S hyprland
+sudo pacman -S hyprland swww kitty rofi thunar sddm hyprlock neovim zsh openssh git github-cli stow pipewire playerctl brightnessctl hyprpicker wl-clipboard acpi polkit-kde-agent mako bluez bluez-utils networkmanager tree
 ```
-[other distros](https://wiki.hyprland.org/Getting-Started/Installation/#packages)
 
-### Swww
+Build the arch aur(yay)
+```bash
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+
+With yay
+```bash
+yay -S eww-git google-chrome
+```
+
+### Enable sercives
+
+> [!IMPORTANT]
+> For sddm, when logging in you may need to change the session from hyprland(systemd) to hyrland.
 
 ```bash
-# Enable services
 sudo chsh -s /bin/zsh
 sudo systemctl enable sddm
-# !!! You may need the change the session from hyprland(systemd session) to hprland
 sudo systemctl enable NetworkManager
 systemctl --user enable mako
 ```
